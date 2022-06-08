@@ -1,0 +1,9 @@
+[submodule "plug-world/themes/themes/hugo-coder"]
+	path = plug-world/themes/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "plug-world/themes/hugo-coder"]
+	path = plug-world/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "plug-world/themes/gokarna"]
+	path = plug-world/themes/gokarna
+	url = https://github.com/526avijitgupta/gokarna.git
