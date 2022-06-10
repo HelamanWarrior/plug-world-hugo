@@ -1,9 +1,8 @@
 ---
 title: "Building a NAS"
 date: 2022-06-08T11:11:01-06:00
-cover:
-    image: "/images/posts/DIY-NAS/DIY-NAS-Full-Setup.jpg"
 ---
+![Diy Nas](/images/posts/diy-nas/diy-nas-full-setup.webp)
 
 ## Computer
 **Ryzen 2200G**, **16gb** of RAM, bronze PSU, **4 - 8TB** [Barracuda Compute Seagate HDD](https://www.amazon.com/Seagate-BarraCuda-Internal-Drive-3-5-Inch/dp/B07H289S7C).

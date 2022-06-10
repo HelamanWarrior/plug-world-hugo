@@ -14,7 +14,7 @@ params:
 
   homeInfoParams:
     Title: "PlugWorld 📺"
-    Content: I make [video games](https://plug-world.com/games.html), [3d graphics](https://plug-world.com/video-stuff.html), and [tutorials](https://www.youtube.com/c/plugworld).
+    Content: I make [video games](/games), [3d graphics](/videos), and [tutorials](https://www.youtube.com/c/plugworld).
 
   socialIcons:
     - name: youtube

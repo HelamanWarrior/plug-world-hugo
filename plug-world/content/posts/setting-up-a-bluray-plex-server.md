@@ -2,7 +2,7 @@
 title: "Setting Up a Bluray Plex Server - From Start to Finish"
 date: 2022-04-27T16:49:45-06:00
 ---
-## The Plexining:
+## The Plexining
 Ever since we got our NAS we had Plex on it. But we didn't have much on it. [Plex](https://www.plex.tv/) is just a media server that hosts all your files and media in one easy to access streamable way. Anyways, I figured it's about time to start utilizing this NAS a lot more. I needed to migrate our entire library of movies from Vudu, Amazon, and Google Play Movies to the NAS. Since I don't wanna be a pirate I'm gonna do things the hard way.
 
 I also use Jellyfin on my media server as a backup if my NAS can't reach Plex's servers. Which is kinda dumb to selfhost Plex and than still be dependent on their own servers to be online. But whatever, still own my own media so if Plex doesn't work I can easily move to the next platform.
