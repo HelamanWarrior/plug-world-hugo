@@ -37,6 +37,8 @@ services:
 
 When first running Nextcloud make sure that you tell it to use the **mysql** database, and give it the "MYSQL_PASSWORD."
 
+In order to access other files on your server through Nextcloud you will need to mount the directories and then add them as external storage folders in Nextcloud.
+
 Reverse proxy:
 - [subfolder config](https://github.com/linuxserver/reverse-proxy-confs/blob/master/nextcloud.subfolder.conf.sample)
 - [subdomain config](https://github.com/linuxserver/reverse-proxy-confs/blob/master/nextcloud.subdomain.conf.sample)

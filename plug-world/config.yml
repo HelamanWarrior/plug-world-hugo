@@ -15,7 +15,7 @@ params:
   profilemode:
     enabled: true
     Title: "PlugWorld 📺"
-    subtitle: I make video games, videos, and tutorials.
+    subtitle: "I make video games, videos, and tutorials."
 
   socialIcons:
     - name: youtube
