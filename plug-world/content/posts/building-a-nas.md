@@ -61,9 +61,10 @@ Certain applications by default are kind of a pain just because their are multip
 - [Jellyfin (Open Source Media Server)](https://docs.linuxserver.io/images/docker-jellyfin)
 - [Plex (Propietary Media Server)](https://docs.linuxserver.io/images/docker-plex)
 - [Swag / Nginx (Web Server / Reverse Proxy)](https://docs.linuxserver.io/images/docker-swag#linuxserver-swag)
+- [Nextcloud (Like Google Drive)](https://docs.linuxserver.io/images/docker-nextcloud)
 - [PhotoPrism (Photo Management)](https://photoprism.app/)
 - [SyncThing](https://github.com/syncthing/syncthing)
-- [SearX (Metadata search engine)](https://github.com/searx/searx)
+- [SearXNG (Metadata search engine)](https://github.com/searxng/searxng)
 - [Matrix Synapse (Encrypted Chat Server)](https://github.com/matrix-org/synapse)
 
 ### SWAG

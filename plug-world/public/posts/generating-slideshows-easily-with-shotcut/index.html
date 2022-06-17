@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Generating Slideshows Easily with Shotcut | PlugWorld</title>
+<meta name="keywords" content="">
+<meta name="description" content="Context Shotcut is an open source video editor.
+From their forum I found out you can create slide shows with it. In the past I tried to create an ffmpeg script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.
+Tutorial Import all of your pictures into the playlist panel on the left hand side. Select all of the pictures that you want in the slideshow.">
+<meta name="author" content="">
+<link rel="canonical" href="https://plug-world.com/posts/generating-slideshows-easily-with-shotcut/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.beb2274ecc7aba02eabb3e39633a32e3e3451a1451befdf83c8b153f0f8820d1.css" integrity="sha256-vrInTsx6ugLquz45Yzoy4&#43;NFGhRRvv34PIsVPw&#43;IINE=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://plug-world.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://plug-world.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://plug-world.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://plug-world.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://plug-world.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Generating Slideshows Easily with Shotcut" />
+<meta property="og:description" content="Context Shotcut is an open source video editor.
+From their forum I found out you can create slide shows with it. In the past I tried to create an ffmpeg script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.
+Tutorial Import all of your pictures into the playlist panel on the left hand side. Select all of the pictures that you want in the slideshow." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://plug-world.com/posts/generating-slideshows-easily-with-shotcut/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-15T14:24:37-06:00" />
+<meta property="article:modified_time" content="2022-06-15T14:24:37-06:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Generating Slideshows Easily with Shotcut"/>
+<meta name="twitter:description" content="Context Shotcut is an open source video editor.
+From their forum I found out you can create slide shows with it. In the past I tried to create an ffmpeg script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.
+Tutorial Import all of your pictures into the playlist panel on the left hand side. Select all of the pictures that you want in the slideshow."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://plug-world.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Generating Slideshows Easily with Shotcut",
+      "item": "https://plug-world.com/posts/generating-slideshows-easily-with-shotcut/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Generating Slideshows Easily with Shotcut",
+  "name": "Generating Slideshows Easily with Shotcut",
+  "description": "Context Shotcut is an open source video editor.\nFrom their forum I found out you can create slide shows with it. In the past I tried to create an ffmpeg script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.\nTutorial Import all of your pictures into the playlist panel on the left hand side. Select all of the pictures that you want in the slideshow.",
+  "keywords": [
+    
+  ],
+  "articleBody": " Context Shotcut is an open source video editor.\nFrom their forum I found out you can create slide shows with it. In the past I tried to create an ffmpeg script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.\nTutorial Import all of your pictures into the playlist panel on the left hand side. Select all of the pictures that you want in the slideshow. Open the playlist menu Click Add selected to Slideshow Find what settings works best for your needs Fixing the Lag You may have noticed the editor lagging as you watch the slideshow in the timeline. This seems like a very common issue with these open source video editors, but I have found a few settings that may speed it up for you.\nGo to settings then…\nDisable Scrub Audio Disable Realtime (frame dropping) Set preview scaling to 360p Go to proxy Enable Use Proxy Enable Use Hardware Encoder Click Configure Hardware Encoder and double check that your using the correct GPU or APU. Change Interpolation to Nearest Neighbor You probably don’t need to go as extreme as I have for the example above. Feel free to play around with each of those settings.\nConclusion And boom, you got a slideshow!\nIt may not be perfect, but it gets the job done quickly with quite a bit of customization.\n",
+  "wordCount" : "236",
+  "inLanguage": "en",
+  "datePublished": "2022-06-15T14:24:37-06:00",
+  "dateModified": "2022-06-15T14:24:37-06:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://plug-world.com/posts/generating-slideshows-easily-with-shotcut/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "PlugWorld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://plug-world.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://plug-world.com/" accesskey="h" title="PlugWorld (Alt + H)">PlugWorld</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://plug-world.com/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://plug-world.com/games/" title="Games">
+                    <span>Games</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://plug-world.com/videos/" title="Videos">
+                    <span>Videos</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://plug-world.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Generating Slideshows Easily with Shotcut
+    </h1>
+    <div class="post-meta"><span title='2022-06-15 14:24:37 -0600 MDT'>June 15, 2022</span>
+
+</div>
+  </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details >
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">Table of Contents</span>
+            </summary>
+
+            <div class="inner"><ul>
+                    <li>
+                        <a href="#context" aria-label="Context">Context</a></li>
+                    <li>
+                        <a href="#tutorial" aria-label="Tutorial">Tutorial</a></li>
+                    <li>
+                        <a href="#fixing-the-lag" aria-label="Fixing the Lag">Fixing the Lag</a></li>
+                    <li>
+                        <a href="#conclusion" aria-label="Conclusion">Conclusion</a>
+                    </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+        
+        activeElement = elements[0];
+        document.querySelector(`.inner ul li a[href="#${activeElement.getAttribute('id')}"]`).classList.add('active');
+    }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        activeElement = Array.from(elements).find((element) => {
+            if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
+                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                return element;
+            }
+        }) || activeElement
+
+        elements.forEach(element => {
+            if (element === activeElement ){
+                document.querySelector(`.inner ul li a[href="#${element.getAttribute('id')}"]`).classList.add('active');
+            } else {
+                document.querySelector(`.inner ul li a[href="#${element.getAttribute('id')}"]`).classList.remove('active');
+            }
+        })
+    }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--main-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;   
+    }
+</script>
+
+  <div class="post-content"><p><img loading="lazy" src="/images/posts/shotcut-slideshow-generator/shotcut-interface-example.webp" alt="Shotcut Interface"  />
+</p>
+<h2 id="context">Context<a hidden class="anchor" aria-hidden="true" href="#context">#</a></h2>
+<p><a href="https://shotcut.org/">Shotcut</a> is an open source video editor.</p>
+<p>From their <a href="https://forum.shotcut.org/t/slideshow-generator/19162">forum</a> I found out you can create slide shows with it. In the past I tried to create an <a href="https://ffmpeg.org/">ffmpeg</a> script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.</p>
+<h2 id="tutorial">Tutorial<a hidden class="anchor" aria-hidden="true" href="#tutorial">#</a></h2>
+<ol>
+<li><strong>Import all</strong> of your pictures into the playlist panel on the left hand side.</li>
+<li><strong>Select all</strong> of the pictures that you want in the slideshow.
+<img loading="lazy" src="/images/posts/shotcut-slideshow-generator/highlight-photos-playlist.webp" alt="Shotcut Picture Selection"  />
+</li>
+<li>Open the <strong>playlist menu</strong>
+<img loading="lazy" src="/images/posts/shotcut-slideshow-generator/slideshow-playlist.webp" alt="Playlist menu"  />
+</li>
+<li>Click <strong>Add selected to Slideshow</strong></li>
+<li>Find what settings works best for your needs
+<img loading="lazy" src="/images/posts/shotcut-slideshow-generator/slideshow-properties.webp" alt="Slideshow properties"  />
+</li>
+</ol>
+<h2 id="fixing-the-lag">Fixing the Lag<a hidden class="anchor" aria-hidden="true" href="#fixing-the-lag">#</a></h2>
+<p>You may have noticed the editor lagging as you watch the slideshow in the timeline. This seems like a very common issue with these open source video editors, but I have found a few settings that may speed it up for you.</p>
+<p>Go to settings then&hellip;</p>
+<ol>
+<li>Disable Scrub Audio</li>
+<li>Disable Realtime (frame dropping)</li>
+<li>Set preview scaling to 360p</li>
+<li>Go to proxy
+<ul>
+<li>Enable Use Proxy</li>
+<li>Enable Use Hardware Encoder</li>
+<li>Click Configure Hardware Encoder and double check that your using the correct GPU or APU.</li>
+</ul>
+</li>
+<li>Change Interpolation to Nearest Neighbor</li>
+</ol>
+<p>You probably don&rsquo;t need to go as extreme as I have for the example above. Feel free to play around with each of those settings.</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>And boom, you got a slideshow!</p>
+<p>It may not be perfect, but it gets the job done quickly with quite a bit of customization.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
