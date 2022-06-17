@@ -175,9 +175,10 @@ Guide for installing OpenZFS This is an open source alternative to Oracle&amp;rs
 <li><a href="https://docs.linuxserver.io/images/docker-jellyfin">Jellyfin (Open Source Media Server)</a></li>
 <li><a href="https://docs.linuxserver.io/images/docker-plex">Plex (Propietary Media Server)</a></li>
 <li><a href="https://docs.linuxserver.io/images/docker-swag#linuxserver-swag">Swag / Nginx (Web Server / Reverse Proxy)</a></li>
+<li><a href="https://docs.linuxserver.io/images/docker-nextcloud">Nextcloud (Like Google Drive)</a></li>
 <li><a href="https://photoprism.app/">PhotoPrism (Photo Management)</a></li>
 <li><a href="https://github.com/syncthing/syncthing">SyncThing</a></li>
-<li><a href="https://github.com/searx/searx">SearX (Metadata search engine)</a></li>
+<li><a href="https://github.com/searxng/searxng">SearXNG (Metadata search engine)</a></li>
 <li><a href="https://github.com/matrix-org/synapse">Matrix Synapse (Encrypted Chat Server)</a></li>
 </ul>
 <h3 id="swag">SWAG</h3>
