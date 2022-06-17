@@ -1,11 +1,12 @@
 ---
 title: "The Steam Deck Is Huge for Indie Gamedevs"
 date: 2022-06-08T15:40:00-06:00
+tags: ['tech', 'gamedev']
 ---
 ![Steam Deck](/images/posts/steam-deck-is-huge-for-gamedevs/steam-deck-closeup.webp)
 The [Steam Deck](https://www.steamdeck.com/en/) is gonna lead to the biggest shift in the pc gaming industry.
 
-## A hitch hikers guide to the Steam Deck
+## A hitch hikers guide to the Steam Deck 🕹️
 The Steam Deck is a handheld x86 based computer. It runs a custom AMD APU running Zen 2 and RDNA 2. The Steam Deck runs [Arch Linux](https://archlinux.org/) as it's kernel in it's custom operating system called Steam OS 3.0.
 
 ### Steam OS Beginnings

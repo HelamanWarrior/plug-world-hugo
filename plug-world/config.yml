@@ -25,6 +25,8 @@ params:
       url: "https://github.com/HelamanWarrior/"
     - name: linkedin
       url: "https://www.linkedin.com/in/parker-anderson-756030214/"
+    - name: rss
+      url: "posts/index.xml"
 
 menu:
   main:

@@ -1,6 +1,7 @@
 ---
 title: "Generating Slideshows Easily with Shotcut"
 date: 2022-06-15T14:24:37-06:00
+tags: ["tutorial"]
 ---
 ![Shotcut Interface](/images/posts/shotcut-slideshow-generator/shotcut-interface-example.webp)
 ## Context
