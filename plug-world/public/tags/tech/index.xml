@@ -119,16 +119,44 @@ Guide for installing OpenZFS This is an open source alternative to Oracle&amp;rs
 <p><strong>Volumes</strong> <em>are way of passing files from your local file system back into your application</em>. The app has no access to any files outside the container by default. The solution is to now mount the configuration of the application back into your file system outside your container. Then the application will write to that mounted directory it&rsquo;s configuration files and the files will no longer be dependent on the application. You can modify them outside of the application, you can remove the application and recreate it and if you still have the config files mounted then the application will continue to maintain persistence when you make changes to it.</p>
 <p><a href="https://www.linuxserver.io/">Linux Server</a> <strong>I can&rsquo;t recommend using their dockers enough</strong>. They essentially take a lot of self hosted applications that people use and make them easier. Configuration is often done with one config folder, just mount it once and boom you are done. Using and configuring their apps are a lot more intuitive than others. <em>But what about the updates?</em> Yeah I mean you can only assume if you use someone else&rsquo;s packages you are at the mercy of them maintaining it. But you don&rsquo;t have to worry about it with <strong>Linux Server</strong>. They have some sort of bot/script that seems to generate these packages whenever updates go through on the apps. Which means you get the latest applications, and don&rsquo;t have to worry about missing features or vulnerabilities.</p>
 <h3 id="apps-i-currently-use">Apps I currently use:</h3>
-<ul>
-<li><a href="https://docs.linuxserver.io/images/docker-jellyfin">Jellyfin (Open Source Media Server)</a></li>
-<li><a href="https://docs.linuxserver.io/images/docker-plex">Plex (Propietary Media Server)</a></li>
-<li><a href="https://docs.linuxserver.io/images/docker-swag#linuxserver-swag">Swag / Nginx (Web Server / Reverse Proxy)</a></li>
-<li><a href="https://docs.linuxserver.io/images/docker-nextcloud">Nextcloud (Like Google Drive)</a></li>
-<li><a href="https://photoprism.app/">PhotoPrism (Photo Management)</a></li>
-<li><a href="https://github.com/syncthing/syncthing">Syncthing (File sync across devices)</a></li>
-<li><a href="https://github.com/searxng/searxng">SearXNG (Metadata search engine)</a></li>
-<li><a href="https://github.com/matrix-org/synapse">Matrix Synapse (Encrypted Chat Server)</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Apps</th>
+<th>Docker-Compose examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://docs.linuxserver.io/images/docker-swag#linuxserver-swag">Swag / Nginx (Web Server / Reverse Proxy)</a></td>
+<td><a href="/docker-compose-files/swag">Docker-Compose</a></td>
+</tr>
+<tr>
+<td><a href="https://docs.linuxserver.io/images/docker-jellyfin">Jellyfin (Open Source Media Server)</a></td>
+<td><a href="/docker-compose-files/jellyfin">Docker-Compose</a></td>
+</tr>
+<tr>
+<td><a href="https://docs.linuxserver.io/images/docker-plex">Plex (Propietary Media Server)</a></td>
+<td><a href="/docker-compose-files/plex">Docker-Compose</a></td>
+</tr>
+<tr>
+<td><a href="https://docs.linuxserver.io/images/docker-nextcloud">Nextcloud (Like Google Drive)</a></td>
+<td><a href="/docker-compose-files/nextcloud">Docker-Compose</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/syncthing/syncthing">Syncthing (File sync across devices)</a></td>
+<td><a href="/docker-compose-files/syncthing">Docker-Compose</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/searxng/searxng">SearXNG (Metadata search engine)</a></td>
+<td><a href="/docker-compose-files/searxng">Docker-Compose</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/matrix-org/synapse">Matrix Synapse (Encrypted Chat Server)</a></td>
+<td><a href="/docker-compose-files/synapse">Docker-Compose</a></td>
+</tr>
+</tbody>
+</table>
 <h3 id="swag">SWAG</h3>
 <p>This application is built ontop of <a href="https://nginx.org/en/">nginx</a>.
 Nginx is a <strong>web server</strong> and a <strong>reverse proxy</strong>. <a href="https://github.com/linuxserver/docker-swag">Swag</a> is just amazing. It just makes your life easier. It has <a href="https://github.com/linuxserver/reverse-proxy-confs">reverse proxy templates</a> for most applications that you would want to run. You simply just have to change the file name to enable them. Anyways, it&rsquo;s really nice so you can have you domain point to multiple apps easily. It also containers certbot which essentially is able to give your website HTTPS encryption all you have to do is configure your domain, add your email to the environment variable, and boom you got an HTTPS website. It comes with other stuff to like cloudflare integration, and many other useful things that just save you so much time.</p>
