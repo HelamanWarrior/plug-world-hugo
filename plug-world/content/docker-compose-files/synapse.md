@@ -49,4 +49,4 @@ database:
 ```
 Here is the [reverse proxy subdomain config](https://github.com/linuxserver/reverse-proxy-confs/blob/master/synapse.subdomain.conf.sample).
 
-If you want federation than you will have to forward port 8448 from your router to your server.
+If you want federation than you will have to forward port 8448 from your router to your server. You also want to make sure that port 8448 is added to your swag / nginx docker-compose.

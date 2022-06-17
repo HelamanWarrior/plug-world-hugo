@@ -98,8 +98,8 @@
   "keywords": [
     
   ],
-  "articleBody": "version: \"2.1\" services: nextcloud: image: lscr.io/linuxserver/nextcloud:latest container_name: nextcloud environment: - PUID=1000 - PGID=1000 - TZ=America/Denver volumes: - /path/to/nextcloud/config:/config - /path/to/nextcloud/data:/data ports: - 443:443 depends_on: - nextcloud_db restart: unless-stopped nextcloud_db: image: linuxserver/mariadb:latest container_name: nextcloud_db environment: - PUID=1000 - PGID=1000 - MYSQL_ROOT_PASSWORD=supersecurepassword - TZ=America/Denver - MYSQL_DATABASE=nextcloud - MYSQL_USER=nextcloud - MYSQL_PASSWORD=myothersecurepassword\tvolumes: - /path/to/nextcloud_db/config/:config restart: unless-stopped When first running Nextcloud make sure that you tell it to use the mysql database, and give it the “MYSQL_PASSWORD.”\nReverse proxy:\nsubfolder config subdomain config ",
-  "wordCount" : "79",
+  "articleBody": "version: \"2.1\" services: nextcloud: image: lscr.io/linuxserver/nextcloud:latest container_name: nextcloud environment: - PUID=1000 - PGID=1000 - TZ=America/Denver volumes: - /path/to/nextcloud/config:/config - /path/to/nextcloud/data:/data ports: - 443:443 depends_on: - nextcloud_db restart: unless-stopped nextcloud_db: image: linuxserver/mariadb:latest container_name: nextcloud_db environment: - PUID=1000 - PGID=1000 - MYSQL_ROOT_PASSWORD=supersecurepassword - TZ=America/Denver - MYSQL_DATABASE=nextcloud - MYSQL_USER=nextcloud - MYSQL_PASSWORD=myothersecurepassword\tvolumes: - /path/to/nextcloud_db/config/:config restart: unless-stopped When first running Nextcloud make sure that you tell it to use the mysql database, and give it the “MYSQL_PASSWORD.”\nIn order to access other files on your server through Nextcloud you will need to mount the directories and then add them as external storage folders in Nextcloud.\nReverse proxy:\nsubfolder config subdomain config ",
+  "wordCount" : "107",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -227,6 +227,7 @@
 </span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">/path/to/nextcloud_db/config/:config</span>
 </span></span><span style="display:flex;"><span>		<span style="color:#f92672">restart</span>: <span style="color:#ae81ff">unless-stopped</span>
 </span></span></code></pre></div><p>When first running Nextcloud make sure that you tell it to use the <strong>mysql</strong> database, and give it the &ldquo;MYSQL_PASSWORD.&rdquo;</p>
+<p>In order to access other files on your server through Nextcloud you will need to mount the directories and then add them as external storage folders in Nextcloud.</p>
 <p>Reverse proxy:</p>
 <ul>
 <li><a href="https://github.com/linuxserver/reverse-proxy-confs/blob/master/nextcloud.subfolder.conf.sample">subfolder config</a></li>
