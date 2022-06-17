@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>gamedev on PlugWorld</title>
+    <link>https://plug-world.com/tags/gamedev/</link>
+    <description>Recent content in gamedev on PlugWorld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 08 Jun 2022 15:40:00 -0600</lastBuildDate><atom:link href="https://plug-world.com/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Steam Deck Is Huge for Indie Gamedevs</title>
+      <link>https://plug-world.com/posts/the-steam-deck-is-huge-for-indie-gamedevs/</link>
+      <pubDate>Wed, 08 Jun 2022 15:40:00 -0600</pubDate>
+      
+      <guid>https://plug-world.com/posts/the-steam-deck-is-huge-for-indie-gamedevs/</guid>
+      <description>The Steam Deck is gonna lead to the biggest shift in the pc gaming industry.
+A hitch hikers guide to the Steam Deck 🕹️ The Steam Deck is a handheld x86 based computer. It runs a custom AMD APU running Zen 2 and RDNA 2. The Steam Deck runs Arch Linux as it&amp;rsquo;s kernel in it&amp;rsquo;s custom operating system called Steam OS 3.0.
+Steam OS Beginnings Steam OS has been around ever since the end of 2013.</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/posts/steam-deck-is-huge-for-gamedevs/steam-deck-closeup.webp" alt="Steam Deck"  />
+
+The <a href="https://www.steamdeck.com/en/">Steam Deck</a> is gonna lead to the biggest shift in the pc gaming industry.</p>
+<h2 id="a-hitch-hikers-guide-to-the-steam-deck-">A hitch hikers guide to the Steam Deck 🕹️</h2>
+<p>The Steam Deck is a handheld x86 based computer. It runs a custom AMD APU running Zen 2 and RDNA 2. The Steam Deck runs <a href="https://archlinux.org/">Arch Linux</a> as it&rsquo;s kernel in it&rsquo;s custom operating system called Steam OS 3.0.</p>
+<h3 id="steam-os-beginnings">Steam OS Beginnings</h3>
+<p><img loading="lazy" src="/images/posts/steam-deck-is-huge-for-gamedevs/big-picture.webp" alt="Steam OS"  />
+
+<a href="https://en.wikipedia.org/wiki/SteamOS">Steam OS has been around ever since the end of 2013</a>. Gabe Newell had a very clear vision for Steam OS. At LinuxCon he stated <a href="https://arstechnica.com/gaming/2013/09/gabe-newell-linux-is-the-future-of-gaming-new-hardware-coming-soon/">&ldquo;Linux and open source are the future of gaming.&rdquo;</a> The idea of running Windows games on Linux is not a new idea to Valve. They have been working on their compatibility layer called <a href="https://github.com/ValveSoftware/Proton">Proton</a> for a long time. Proton is a fork of <a href="https://www.winehq.org/">Wine</a>, which is a tool to run Windows executables on Linux. Valve first used Steam OS on their <a href="https://en.wikipedia.org/wiki/Steam_Machine_(computer)">Steam Machines</a> in 2015. Basically Steam Machines were just to bring a console like experience to a personal computer. This led to the <a href="https://store.steampowered.com/app/353370/Steam_Controller/">Steam Controllers</a> and <a href="https://store.steampowered.com/bigpicture">Steam Big Picture</a>.</p>
+<h3 id="steam-machines-failed">Steam Machines Failed</h3>
+<p><img loading="lazy" src="/images/posts/steam-deck-is-huge-for-gamedevs/steam-machine.webp" alt="Steam Machine"  />
+
+At the time, Steam OS was a very cool concept, but lacked in terms of hardware and game support. Which led to the <a href="https://steamcommunity.com/app/221410/discussions/0/1696043806550421224/">Steam Machines being discontinued in 2018</a>. Valve stated that they still have a vision for Steam OS and will continue to improve it, even after discontinuing the Steam Machines.</p>
+<h3 id="steam-deck-announcement">Steam Deck Announcement</h3>
+<p>Towards the end of 2021 the <a href="https://www.youtube.com/watch?v=AlWgZhMtlWo">Steam Deck was announced</a>. The Steam Deck was made possible by the software that Valve has continued to improve over the course of about 9 years. It was also only possible by the contributions and the dedication of the free and open source community. The Steam Deck introduced a new way to play PC games. Often it&rsquo;s compared to the Nintendo Switch in terms of form factor, but the two systems are dramatically different and created for very different audiences.</p>
+<h2 id="other-handheld-pcs">Other handheld PCs</h2>
+<p>The idea of a handheld computer has been around for a very long time. But the hardware never caught up to the current generation. Until now. If you have been paying any attention to the handheld computer space in the past 2 years, you would know that the market is beginning to become mainstream.</p>
+<p>I owned a <a href="https://www.gpd.hk/gdpwin2">GPD Win 2</a> before my Steam Deck. It doesn&rsquo;t really have a lot of processing power, but basically every 2D indie game would run perfectly on it. It was interesting to tinker with it, often you could boost performance and battery life by playing with the TDP and under volting the machine. This opens up the possibilities of playing a few AAA pc games.</p>
+<p>This year alone, two handhelds are gonna be competing with the Steam Deck at it&rsquo;s price point.</p>
+<table>
+<thead>
+<tr>
+<th><a href="https://liliputing.com/2022/05/aya-neo-air-with-an-oled-display-is-a-thinner-lighter-handheld-gaming-pc.html">Aya Neo Air</a> starts at $549</th>
+<th><a href="https://www.theverge.com/2022/5/28/23145658/ayn-loki-handheld-runs-windows-starts-299">Ayn Loki</a> starts at $299</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img loading="lazy" src="/images/posts/steam-deck-is-huge-for-gamedevs/aya-neo-air-handheld.webp" alt="Aya Neo Air"  />
+</td>
+<td><img loading="lazy" src="/images/posts/steam-deck-is-huge-for-gamedevs/ayn-loki-handheld.webp" alt="Ayn Loki"  />
+</td>
+</tr>
+</tbody>
+</table>
+<p>There&rsquo;s definitely an expanding market here. One that I believe game developers should design games with this usecase in mind.</p>
+<h2 id="indie-games-benefit-most-from-handheld-systems">Indie games benefit most from handheld systems</h2>
+<p>Whenever you have portable hardware, the games that are played the most are usually casual. I mean some people play Call of Duty Mobile on their phones, but most people play simple and addictive time killer games.</p>
+<p>Take the Nintendo Switch as an example. Basically all of the Nintendo Switch library is backed by indie games. Aside from the Nintendo AAA games, people mostly play indie games on the system. Nintendo knows this, they have been promoting indies for a while now using <a href="https://twitter.com/indieworldna">indie world</a>.</p>
+<p>In my experience playing on the Steam Deck, I would often lean towards the more casual indie games.</p>
+<ul>
+<li>They are much easier to jump straight into, especially if I just have a few minutes to spare.</li>
+<li>They use up very little battery. Some games can go up to 7 hours before the unit dies.</li>
+</ul>
+<p>Most of the time, I just found them more enjoyable. Now that&rsquo;s obviously just my opinion. Plenty of people are enjoying modern AAA games on their Steam Decks right now. But by the stats of the previous systems in a similar form factor, I can confidently say that the Steam Deck is gonna sell more indie game developers games that support the platform.</p>
+<h2 id="great-on-deck">Great on Deck</h2>
+<p>Since the Steam Deck is running Steam OS and is Linux based. Not all games work flawlessly on it. Proton does an amazing job getting most games running on the system. But there are a few that will continue to have issues until devs support it.</p>
+<p><a href="https://store.steampowered.com/greatondeck">Great on Deck</a> was created to help customers make sure they are buying games that run well on the system. As an indie game dev, the goal should be to get your game supported. Games that are supported overall get a lot more game sales compared to games that aren&rsquo;t supported on Steam Deck. I would start by integrating the <a href="https://partner.steamgames.com/doc/sdk/api">SteamWorks api</a> into your game. Adding achievements, cloud saves, and steam input can go a long way for your game.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Just some of my quick thoughts on the current handheld gaming market and how indie game developers can benefit from it. I would totally recommend if you are a current game developer to look into the Steam Deck and other gaming handhelds. It&rsquo;s an interesting market right now, and it&rsquo;s just starting to become more mainstream.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

@@ -57,14 +57,15 @@ The solution to all of these is quite simple. **Don't use DOCKER.** *Instead use
 [Linux Server](https://www.linuxserver.io/) **I can't recommend using their dockers enough**. They essentially take a lot of self hosted applications that people use and make them easier. Configuration is often done with one config folder, just mount it once and boom you are done. Using and configuring their apps are a lot more intuitive than others. *But what about the updates?* Yeah I mean you can only assume if you use someone else's packages you are at the mercy of them maintaining it. But you don't have to worry about it with **Linux Server**. They have some sort of bot/script that seems to generate these packages whenever updates go through on the apps. Which means you get the latest applications, and don't have to worry about missing features or vulnerabilities.
 
 ### Apps I currently use:
-- [Jellyfin (Open Source Media Server)](https://docs.linuxserver.io/images/docker-jellyfin)
-- [Plex (Propietary Media Server)](https://docs.linuxserver.io/images/docker-plex)
-- [Swag / Nginx (Web Server / Reverse Proxy)](https://docs.linuxserver.io/images/docker-swag#linuxserver-swag)
-- [Nextcloud (Like Google Drive)](https://docs.linuxserver.io/images/docker-nextcloud)
-- [PhotoPrism (Photo Management)](https://photoprism.app/)
-- [Syncthing (File sync across devices)](https://github.com/syncthing/syncthing)
-- [SearXNG (Metadata search engine)](https://github.com/searxng/searxng)
-- [Matrix Synapse (Encrypted Chat Server)](https://github.com/matrix-org/synapse)
+Apps | Docker-Compose examples
+--|--
+[Swag / Nginx (Web Server / Reverse Proxy)](https://docs.linuxserver.io/images/docker-swag#linuxserver-swag) | [Docker-Compose](/docker-compose-files/swag)
+[Jellyfin (Open Source Media Server)](https://docs.linuxserver.io/images/docker-jellyfin) | [Docker-Compose](/docker-compose-files/jellyfin)
+[Plex (Propietary Media Server)](https://docs.linuxserver.io/images/docker-plex) | [Docker-Compose](/docker-compose-files/plex)
+[Nextcloud (Like Google Drive)](https://docs.linuxserver.io/images/docker-nextcloud) | [Docker-Compose](/docker-compose-files/nextcloud)
+[Syncthing (File sync across devices)](https://github.com/syncthing/syncthing) | [Docker-Compose](/docker-compose-files/syncthing)
+[SearXNG (Metadata search engine)](https://github.com/searxng/searxng) | [Docker-Compose](/docker-compose-files/searxng)
+[Matrix Synapse (Encrypted Chat Server)](https://github.com/matrix-org/synapse) | [Docker-Compose](/docker-compose-files/synapse)
 
 ### SWAG
 This application is built ontop of [nginx](https://nginx.org/en/).

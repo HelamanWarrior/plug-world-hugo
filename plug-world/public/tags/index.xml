@@ -4,6 +4,57 @@
     <title>Tags on PlugWorld</title>
     <link>https://plug-world.com/tags/</link>
     <description>Recent content in Tags on PlugWorld</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://plug-world.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Jun 2022 14:24:37 -0600</lastBuildDate><atom:link href="https://plug-world.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tutorial</title>
+      <link>https://plug-world.com/tags/tutorial/</link>
+      <pubDate>Wed, 15 Jun 2022 14:24:37 -0600</pubDate>
+      
+      <guid>https://plug-world.com/tags/tutorial/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>gamedev</title>
+      <link>https://plug-world.com/tags/gamedev/</link>
+      <pubDate>Wed, 08 Jun 2022 15:40:00 -0600</pubDate>
+      
+      <guid>https://plug-world.com/tags/gamedev/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://plug-world.com/tags/tech/</link>
+      <pubDate>Wed, 08 Jun 2022 15:40:00 -0600</pubDate>
+      
+      <guid>https://plug-world.com/tags/tech/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://plug-world.com/tags/docker/</link>
+      <pubDate>Wed, 08 Jun 2022 11:11:01 -0600</pubDate>
+      
+      <guid>https://plug-world.com/tags/docker/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>selfhosting</title>
+      <link>https://plug-world.com/tags/selfhosting/</link>
+      <pubDate>Wed, 08 Jun 2022 11:11:01 -0600</pubDate>
+      
+      <guid>https://plug-world.com/tags/selfhosting/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>
