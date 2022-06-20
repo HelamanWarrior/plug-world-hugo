@@ -15,8 +15,8 @@
       <description>Context Shotcut is an open source video editor.
 From their forum I found out you can create slide shows with it. In the past I tried to create an ffmpeg script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.
 Tutorial Import all of your pictures into the playlist panel on the left hand side. Select all of the pictures that you want in the slideshow.</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/posts/shotcut-slideshow-generator/shotcut-interface-example.webp" alt="Shotcut Interface"  />
-</p>
+      <content:encoded><![CDATA[<p><a href="https://www.youtube.com/watch?v=jf2OVow17X8"><img loading="lazy" src="/images/posts/shotcut-slideshow-generator/thumbnail.webp" alt="Shotcut Interface"  />
+</a></p>
 <h2 id="context">Context</h2>
 <p><a href="https://shotcut.org/">Shotcut</a> is an open source video editor.</p>
 <p>From their <a href="https://forum.shotcut.org/t/slideshow-generator/19162">forum</a> I found out you can create slide shows with it. In the past I tried to create an <a href="https://ffmpeg.org/">ffmpeg</a> script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.</p>
