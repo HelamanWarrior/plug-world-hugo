@@ -11,23 +11,28 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowFullTextinRSS: true
   ShowToc: true
+  hideSummary: true
 
   profilemode:
     enabled: true
     Title: "PlugWorld 📺"
     subtitle: "I make video games, videos, and tutorials."
+    imageUrl: "/images/profile/profile-pic.webp"
 
   socialIcons:
+    - name: rss
+      url: "posts/index.xml"
     - name: youtube
       url: "https://www.youtube.com/c/plugworld"
-    - name: itch
-      url: "https://plugworldg.itch.io/"
     - name: github
       url: "https://github.com/HelamanWarrior/"
     - name: linkedin
       url: "https://www.linkedin.com/in/parker-anderson-756030214/"
-    - name: rss
-      url: "posts/index.xml"
+  assets:
+    favicon: "/images/profile/favicon.ico"
+    favicon16x16: "/images/profile/favicon-16x16.png"
+    favicon32x32: "/images/profile/favicon-32x32.png"
+    apple_touch_icon: "/images/profile/apple-touch-icon.png"
 
 menu:
   main:
@@ -47,3 +52,8 @@ menu:
       name: Contact
       url: /contact/
       weight: 4
+
+privacy:
+  youtube:
+    disabled: false
+    privacyEnhanced: true
