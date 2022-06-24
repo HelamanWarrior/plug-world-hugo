@@ -2,6 +2,7 @@
 title: "Arch Linux Just Works"
 date: 2022-06-20T09:19:12-06:00
 ---
+[![Arch Linux](/images/posts/arch-linux-just-works/arch-linux.webp)](https://www.youtube.com/watch?v=ZGcrjX-xlfk)
 ## Intro
 Arch is often not recommended to new Linux users.
 This is caused by the fact that you have to run a lot of commands to install and configure your system.
