@@ -12,6 +12,7 @@ params:
   ShowFullTextinRSS: true
   ShowToc: true
   hideSummary: true
+  ShowReadingTime: false
 
   profilemode:
     enabled: true
