@@ -1,7 +1,7 @@
 ---
 title: "Generating Slideshows Easily with Shotcut"
 date: 2022-06-15T14:24:37-06:00
-tags: ["tutorial"]
+tags: ['tutorial', 'youtube']
 ---
 [![Shotcut Interface](/images/posts/shotcut-slideshow-generator/thumbnail.webp)](https://www.youtube.com/watch?v=jf2OVow17X8)
 [Full video on YouTube](https://www.youtube.com/watch?v=jf2OVow17X8)

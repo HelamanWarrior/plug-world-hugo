@@ -66,6 +66,7 @@ Apps | Docker-Compose examples
 [Syncthing (File sync across devices)](https://github.com/syncthing/syncthing) | [Docker-Compose](/docker-compose-files/syncthing)
 [SearXNG (Metadata search engine)](https://github.com/searxng/searxng) | [Docker-Compose](/docker-compose-files/searxng)
 [Matrix Synapse (Encrypted Chat Server)](https://github.com/matrix-org/synapse) | [Docker-Compose](/docker-compose-files/synapse)
+[Photoview](https://photoview.github.io/) | [Docker-compose](/docker-compose-files/photoview)
 
 ### SWAG
 This application is built ontop of [nginx](https://nginx.org/en/).

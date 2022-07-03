@@ -393,6 +393,10 @@ Guide for installing OpenZFS This is an open source alternative to Oracle&amp;rs
 <td><a href="https://github.com/matrix-org/synapse">Matrix Synapse (Encrypted Chat Server)</a></td>
 <td><a href="/docker-compose-files/synapse">Docker-Compose</a></td>
 </tr>
+<tr>
+<td><a href="https://photoview.github.io/">Photoview</a></td>
+<td><a href="/docker-compose-files/photoview">Docker-compose</a></td>
+</tr>
 </tbody>
 </table>
 <h3 id="swag">SWAG</h3>
@@ -493,18 +497,27 @@ Nginx is a <strong>web server</strong> and a <strong>reverse proxy</strong>. <a 
     
     
     <item>
-      <title>Contact 🪪</title>
+      <title>Contact</title>
       <link>https://plug-world.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://plug-world.com/contact/</guid>
       <description>✉️ parkersthinking-at-gmail.com
 🗨️ Matrix (Encrypted Chat)
-LinkedIn</description>
+LinkedIn
+Donate Monero:
+Feel free to put your email in the description. That way I can send you my Patreon files. 43B6vNdEAK7PjxpeWBwbkUfbLbVBRLttocZkSTiXYGV9abNjNEqZbCpeiPuQPsPHBp9tQm5iByoGBSHQemovDxZSQyczYe9 </description>
       <content:encoded><![CDATA[<p>✉️ parkersthinking-at-gmail.com</p>
 <p><a href="https://matrix.to/#/@plug_world:matrix.plug-world.com">🗨️ Matrix (Encrypted Chat)</a></p>
 <p><a href="https://www.linkedin.com/in/parker-anderson-756030214/">LinkedIn</a></p>
-]]></content:encoded>
+<hr>
+<p>Donate Monero:</p>
+<p>Feel free to put your email in the description.
+That way I can send you my <a href="https://www.patreon.com/plugworld">Patreon files</a>.
+<img loading="lazy" src="/images/profile/xmr-donations.png#center" alt="QR Code"  />
+</p>
+<pre tabindex="0"><code>43B6vNdEAK7PjxpeWBwbkUfbLbVBRLttocZkSTiXYGV9abNjNEqZbCpeiPuQPsPHBp9tQm5iByoGBSHQemovDxZSQyczYe9
+</code></pre>]]></content:encoded>
     </item>
     
     <item>
@@ -667,6 +680,45 @@ subfolder config subdomain config </description>
     </item>
     
     <item>
+      <title>Photoview Docker Compose</title>
+      <link>https://plug-world.com/docker-compose-files/photoview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://plug-world.com/docker-compose-files/photoview/</guid>
+      <description>version: &amp;#34;2.1&amp;#34; services: photoview_db: image: mariadb:10.5 environment: - MYSQL_DATABASE=photoview - MYSQL_USER=photoview - MYSQL_PASSWORD=photoviewsecret - MYSQL_RANDOM_ROOT_PASSWORD=1 volumes: - /path/to/db:/var/lib/mysql restart: unless-stopped photoview: image: viktorstate/photoview:2 environment: - PHOTOVIEW_DATABASE_DRIVER=mysql - PHOTOVIEW_MYSQL_URL=photoview:photoviewsecret@tcp(photoview_db)/photoview - PHOTOVIEW_LISTEN_IP=photoview - PHOTOVIEW_LISTEN_PORT=80 - PHOTOVIEW_MEDIA_CACHE=/app/cache volumes: - /path/to/cache:/app/cache - /path/to/photos:/photos:ro ports: - 8000:80 depends_on: - photoview_db restart: unless-stopped When you first configure it make sure you set the photo path to /photos</description>
+      <content:encoded><![CDATA[<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#34;2.1&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">services</span>:
+</span></span><span style="display:flex;"><span>	<span style="color:#f92672">photoview_db</span>:
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">image</span>: <span style="color:#ae81ff">mariadb:10.5 </span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">environment</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">MYSQL_DATABASE=photoview</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">MYSQL_USER=photoview</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">MYSQL_PASSWORD=photoviewsecret</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">MYSQL_RANDOM_ROOT_PASSWORD=1</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">volumes</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">/path/to/db:/var/lib/mysql</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">restart</span>: <span style="color:#ae81ff">unless-stopped</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#f92672">photoview</span>:
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">image</span>: <span style="color:#ae81ff">viktorstate/photoview:2</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">environment</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_DATABASE_DRIVER=mysql</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_MYSQL_URL=photoview:photoviewsecret@tcp(photoview_db)/photoview</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_LISTEN_IP=photoview</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_LISTEN_PORT=80</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_MEDIA_CACHE=/app/cache</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">volumes</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">/path/to/cache:/app/cache</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">/path/to/photos:/photos:ro</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">8000</span>:<span style="color:#ae81ff">80</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">depends_on</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">photoview_db</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">restart</span>: <span style="color:#ae81ff">unless-stopped</span>
+</span></span></code></pre></div><p>When you first configure it make sure you set the photo path to <code>/photos</code></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>Plex Docker Compose</title>
       <link>https://plug-world.com/docker-compose-files/plex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -728,36 +780,6 @@ Make sure to change the upstream app from searx to searxng.</description>
 </span></span></code></pre></div><p><a href="https://github.com/linuxserver/reverse-proxy-confs/pull/448">Reverse proxy subdomain config</a> as of writing this, it hasn&rsquo;t been merged yet.</p>
 <p>Make sure to change the upstream app from searx to searxng.</p>
 ]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Swag Docker Compose</title>
-      <link>https://plug-world.com/docker-compose-files/swag/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://plug-world.com/docker-compose-files/swag/</guid>
-      <description>version: &amp;#34;2.1&amp;#34; services: swag: image: lscr.io/linuxserver/swag container_name: swag cap_add: - NET_ADMIN environment: - PUID=1000 - PGID=1000 - TZ=America/Denver - URL=example.com - SUBDOMAINS=www - VALIDATION=http volumes: - /path/to/swag/config:/config ports: - 443:443 - 80:80 restart: unless-stopped </description>
-      <content:encoded><![CDATA[<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#34;2.1&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">services</span>:
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">swag</span>:
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">image</span>: <span style="color:#ae81ff">lscr.io/linuxserver/swag</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">container_name</span>: <span style="color:#ae81ff">swag</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">cap_add</span>:
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">NET_ADMIN</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">environment</span>:
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PUID=1000</span>
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PGID=1000</span>
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">TZ=America/Denver</span>
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">URL=example.com</span>
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">SUBDOMAINS=www</span>
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">VALIDATION=http</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">volumes</span>:
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">/path/to/swag/config:/config</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">ports</span>:
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">443</span>:<span style="color:#ae81ff">443</span>
-</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">80</span>:<span style="color:#ae81ff">80</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">restart</span>: <span style="color:#ae81ff">unless-stopped</span>
-</span></span></code></pre></div>]]></content:encoded>
     </item>
     
     <item>

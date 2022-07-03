@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Games 🎮 | PlugWorld</title>
+<title>Photoview Docker Compose | PlugWorld</title>
 <meta name="keywords" content="">
-<meta name="description" content=" ">
+<meta name="description" content="version: &#34;2.1&#34; services: photoview_db: image: mariadb:10.5 environment: - MYSQL_DATABASE=photoview - MYSQL_USER=photoview - MYSQL_PASSWORD=photoviewsecret - MYSQL_RANDOM_ROOT_PASSWORD=1 volumes: - /path/to/db:/var/lib/mysql restart: unless-stopped photoview: image: viktorstate/photoview:2 environment: - PHOTOVIEW_DATABASE_DRIVER=mysql - PHOTOVIEW_MYSQL_URL=photoview:photoviewsecret@tcp(photoview_db)/photoview - PHOTOVIEW_LISTEN_IP=photoview - PHOTOVIEW_LISTEN_PORT=80 - PHOTOVIEW_MEDIA_CACHE=/app/cache volumes: - /path/to/cache:/app/cache - /path/to/photos:/photos:ro ports: - 8000:80 depends_on: - photoview_db restart: unless-stopped When you first configure it make sure you set the photo path to /photos">
 <meta name="author" content="">
-<link rel="canonical" href="https://plug-world.com/games/">
+<link rel="canonical" href="https://plug-world.com/docker-compose-files/photoview/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a8082acac18ad8d2d3271d293d9a422cc970ff9e2426d07aef28bc1d504d85f8.css" integrity="sha256-qAgqysGK2NLTJx0pPZpCLMlw/54kJtB67yi8HVBNhfg=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
@@ -56,16 +56,16 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Games 🎮" />
-<meta property="og:description" content=" " />
+</noscript><meta property="og:title" content="Photoview Docker Compose" />
+<meta property="og:description" content="version: &#34;2.1&#34; services: photoview_db: image: mariadb:10.5 environment: - MYSQL_DATABASE=photoview - MYSQL_USER=photoview - MYSQL_PASSWORD=photoviewsecret - MYSQL_RANDOM_ROOT_PASSWORD=1 volumes: - /path/to/db:/var/lib/mysql restart: unless-stopped photoview: image: viktorstate/photoview:2 environment: - PHOTOVIEW_DATABASE_DRIVER=mysql - PHOTOVIEW_MYSQL_URL=photoview:photoviewsecret@tcp(photoview_db)/photoview - PHOTOVIEW_LISTEN_IP=photoview - PHOTOVIEW_LISTEN_PORT=80 - PHOTOVIEW_MEDIA_CACHE=/app/cache volumes: - /path/to/cache:/app/cache - /path/to/photos:/photos:ro ports: - 8000:80 depends_on: - photoview_db restart: unless-stopped When you first configure it make sure you set the photo path to /photos" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://plug-world.com/games/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://plug-world.com/docker-compose-files/photoview/" /><meta property="article:section" content="docker-compose-files" />
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Games 🎮"/>
-<meta name="twitter:description" content=" "/>
+<meta name="twitter:title" content="Photoview Docker Compose"/>
+<meta name="twitter:description" content="version: &#34;2.1&#34; services: photoview_db: image: mariadb:10.5 environment: - MYSQL_DATABASE=photoview - MYSQL_USER=photoview - MYSQL_PASSWORD=photoviewsecret - MYSQL_RANDOM_ROOT_PASSWORD=1 volumes: - /path/to/db:/var/lib/mysql restart: unless-stopped photoview: image: viktorstate/photoview:2 environment: - PHOTOVIEW_DATABASE_DRIVER=mysql - PHOTOVIEW_MYSQL_URL=photoview:photoviewsecret@tcp(photoview_db)/photoview - PHOTOVIEW_LISTEN_IP=photoview - PHOTOVIEW_LISTEN_PORT=80 - PHOTOVIEW_MEDIA_CACHE=/app/cache volumes: - /path/to/cache:/app/cache - /path/to/photos:/photos:ro ports: - 8000:80 depends_on: - photoview_db restart: unless-stopped When you first configure it make sure you set the photo path to /photos"/>
 
 
 <script type="application/ld+json">
@@ -76,8 +76,14 @@
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "Games 🎮",
-      "item": "https://plug-world.com/games/"
+      "name": "Docker-compose-files",
+      "item": "https://plug-world.com/docker-compose-files/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Photoview Docker Compose",
+      "item": "https://plug-world.com/docker-compose-files/photoview/"
     }
   ]
 }
@@ -86,20 +92,20 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Games 🎮",
-  "name": "Games 🎮",
-  "description": " ",
+  "headline": "Photoview Docker Compose",
+  "name": "Photoview Docker Compose",
+  "description": "version: \u0026#34;2.1\u0026#34; services: photoview_db: image: mariadb:10.5 environment: - MYSQL_DATABASE=photoview - MYSQL_USER=photoview - MYSQL_PASSWORD=photoviewsecret - MYSQL_RANDOM_ROOT_PASSWORD=1 volumes: - /path/to/db:/var/lib/mysql restart: unless-stopped photoview: image: viktorstate/photoview:2 environment: - PHOTOVIEW_DATABASE_DRIVER=mysql - PHOTOVIEW_MYSQL_URL=photoview:photoviewsecret@tcp(photoview_db)/photoview - PHOTOVIEW_LISTEN_IP=photoview - PHOTOVIEW_LISTEN_PORT=80 - PHOTOVIEW_MEDIA_CACHE=/app/cache volumes: - /path/to/cache:/app/cache - /path/to/photos:/photos:ro ports: - 8000:80 depends_on: - photoview_db restart: unless-stopped When you first configure it make sure you set the photo path to /photos",
   "keywords": [
     
   ],
-  "articleBody": " ",
-  "wordCount" : "0",
+  "articleBody": "version: \"2.1\" services: photoview_db: image: mariadb:10.5 environment: - MYSQL_DATABASE=photoview - MYSQL_USER=photoview - MYSQL_PASSWORD=photoviewsecret - MYSQL_RANDOM_ROOT_PASSWORD=1 volumes: - /path/to/db:/var/lib/mysql restart: unless-stopped photoview: image: viktorstate/photoview:2 environment: - PHOTOVIEW_DATABASE_DRIVER=mysql - PHOTOVIEW_MYSQL_URL=photoview:photoviewsecret@tcp(photoview_db)/photoview - PHOTOVIEW_LISTEN_IP=photoview - PHOTOVIEW_LISTEN_PORT=80 - PHOTOVIEW_MEDIA_CACHE=/app/cache volumes: - /path/to/cache:/app/cache - /path/to/photos:/photos:ro ports: - 8000:80 depends_on: - photoview_db restart: unless-stopped When you first configure it make sure you set the photo path to /photos\n",
+  "wordCount" : "61",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://plug-world.com/games/"
+    "@id": "https://plug-world.com/docker-compose-files/photoview/"
   },
   "publisher": {
     "@type": "Organization",
@@ -160,7 +166,7 @@
             </li>
             <li>
                 <a href="https://plug-world.com/games/" title="Games">
-                    <span class="active">Games</span>
+                    <span>Games</span>
                 </a>
             </li>
             <li>
@@ -182,19 +188,42 @@
   <header class="post-header">
     
     <h1 class="post-title">
-      Games 🎮
+      Photoview Docker Compose
     </h1>
     <div class="post-meta">
 
 </div>
   </header> 
 
-  <div class="post-content"><p><a href="https://plug-world.com/carls-crude-combat"><img loading="lazy" src="/images/game-covers/carls-crude-combat-cover.png" alt="Carls Crude Combat"  />
-</a>
-<a href="https://plug-world.com/seadefender"><img loading="lazy" src="/images/game-covers/sea-defender-cover.png" alt="SeaDefender"  />
-</a>
-<a href="https://plug-world.com/gunnerguy"><img loading="lazy" src="/images/game-covers/gunner-guy-cover.png" alt="GunnerGuy"  />
-</a></p>
+  <div class="post-content"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#34;2.1&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">services</span>:
+</span></span><span style="display:flex;"><span>	<span style="color:#f92672">photoview_db</span>:
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">image</span>: <span style="color:#ae81ff">mariadb:10.5 </span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">environment</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">MYSQL_DATABASE=photoview</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">MYSQL_USER=photoview</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">MYSQL_PASSWORD=photoviewsecret</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">MYSQL_RANDOM_ROOT_PASSWORD=1</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">volumes</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">/path/to/db:/var/lib/mysql</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">restart</span>: <span style="color:#ae81ff">unless-stopped</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#f92672">photoview</span>:
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">image</span>: <span style="color:#ae81ff">viktorstate/photoview:2</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">environment</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_DATABASE_DRIVER=mysql</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_MYSQL_URL=photoview:photoviewsecret@tcp(photoview_db)/photoview</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_LISTEN_IP=photoview</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_LISTEN_PORT=80</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">PHOTOVIEW_MEDIA_CACHE=/app/cache</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">volumes</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">/path/to/cache:/app/cache</span>
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">/path/to/photos:/photos:ro</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">8000</span>:<span style="color:#ae81ff">80</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">depends_on</span>:
+</span></span><span style="display:flex;"><span>			- <span style="color:#ae81ff">photoview_db</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">restart</span>: <span style="color:#ae81ff">unless-stopped</span>
+</span></span></code></pre></div><p>When you first configure it make sure you set the photo path to <code>/photos</code></p>
 
 
   </div>

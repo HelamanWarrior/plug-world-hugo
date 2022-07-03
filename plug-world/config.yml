@@ -33,7 +33,6 @@ params:
     favicon: "/images/profile/favicon.ico"
     favicon16x16: "/images/profile/favicon-16x16.png"
     favicon32x32: "/images/profile/favicon-32x32.png"
-    apple_touch_icon: "/images/profile/apple-touch-icon.png"
 
 menu:
   main:

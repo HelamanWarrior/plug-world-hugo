@@ -155,6 +155,10 @@ Guide for installing OpenZFS This is an open source alternative to Oracle&amp;rs
 <td><a href="https://github.com/matrix-org/synapse">Matrix Synapse (Encrypted Chat Server)</a></td>
 <td><a href="/docker-compose-files/synapse">Docker-Compose</a></td>
 </tr>
+<tr>
+<td><a href="https://photoview.github.io/">Photoview</a></td>
+<td><a href="/docker-compose-files/photoview">Docker-compose</a></td>
+</tr>
 </tbody>
 </table>
 <h3 id="swag">SWAG</h3>
