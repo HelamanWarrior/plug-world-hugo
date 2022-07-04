@@ -1,5 +1,7 @@
 ---
 title: "Photoview Docker Compose"
+date: 2022-07-03 17:18:20
+tags: ['docker']
 ---
 ```yml
 version: "2.1"

@@ -5,7 +5,60 @@
     <link>https://plug-world.com/tags/tutorial/</link>
     <description>Recent content in tutorial on PlugWorld</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Jun 2022 11:59:47 -0600</lastBuildDate><atom:link href="https://plug-world.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jul 2022 11:43:17 -0600</lastBuildDate><atom:link href="https://plug-world.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing Bluetooth Xbox Controllers in Arch Linux</title>
+      <link>https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/</link>
+      <pubDate>Sun, 03 Jul 2022 11:43:17 -0600</pubDate>
+      
+      <guid>https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/</guid>
+      <description>Just like many others, I had issues with my Xbox One X/S controllers in Arch Linux. Here&amp;rsquo;s my quick guide to get everything working.
+Setting up Bluetooth Since you are on Arch Linux there&amp;rsquo;s a good chance you may not have Bluetooth installed.
+sudo pacman -S bluez bluez-utils Bluez provides the Bluetooth protocol stack. Bluz-utils provides a command line utility to connect bluetooth devices.
+sudo systemctl enable bluetooth.service Automatically autostart bluetooth as a service when the system boots.</description>
+      <content:encoded><![CDATA[<p>Just like many others, I had issues with my Xbox One X/S controllers in Arch Linux.
+Here&rsquo;s my quick guide to get everything working.</p>
+<h2 id="setting-up-bluetooth">Setting up Bluetooth</h2>
+<p>Since you are on Arch Linux there&rsquo;s a good chance you may not have Bluetooth installed.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S bluez bluez-utils
+</span></span></code></pre></div><p>Bluez provides the Bluetooth protocol stack.
+Bluz-utils provides a command line utility to connect bluetooth devices.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl enable bluetooth.service
+</span></span></code></pre></div><p>Automatically autostart bluetooth as a service when the system boots.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl start bluetooth.service
+</span></span></code></pre></div><p>Startup the bluetooth service.</p>
+<h2 id="connecting-the-controller-via-bluetooth">Connecting the controller via Bluetooth</h2>
+<p>Run <code>bluetoothctl</code> in the command line to startup the bluetooth utility.</p>
+<p>Run <code>power on</code> to turn on the bluetooth controller.</p>
+<p>Run <code>scan on</code> to get a list of each of the devices and their mac addresses.
+Your Xbox controller should show up as &ldquo;Xbox Wireless Controller&rdquo; then copy the mac address.</p>
+<p>Run <code>pair yourControllerMacAddress</code>, this will connect your Bluetooth controller.
+If you run into pairing issues, proceed to the next section.</p>
+<h2 id="controller-bluetooth-fix">Controller Bluetooth fix</h2>
+<p>Is your controller having Bluetooth connection issues?
+The solution is to update the firmware in the controller.</p>
+<ol>
+<li>Jump over to Windows, don&rsquo;t worry this is temporary (you can use a VM too).</li>
+<li>Download the Xbox Accessories app from the Microsoft Store.</li>
+<li>Plug in the controller to the pc.</li>
+<li>Get them updates.</li>
+</ol>
+<p>Now that the controller is updated, you can switch back to your Arch Linux install.
+You can see that the controller can connect over Bluetooth.</p>
+<h2 id="fixing-controller-mappings">Fixing controller mappings</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S linux-headers
+</span></span></code></pre></div><p>Make sure you have linux-headers installed.
+They are required for the next step.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yay -S xpadneo-dkms-git
+</span></span></code></pre></div><p>Make sure you have the <a href="https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/">yay aur helper</a> installed.
+Then proceed to install xpadneo.
+It contains the drivers for the Xbox One wireless controllers.
+This fixes the strange behavior of the operating system misinterpreting some of the controls on the controller.
+For example, my controller had issues with the right joystick and a few face buttons were mixed up.
+After installing the drivers those issues were resolved.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Brave Goggles Changes How I Search</title>
       <link>https://plug-world.com/posts/brave-goggles-changes-how-i-search/</link>

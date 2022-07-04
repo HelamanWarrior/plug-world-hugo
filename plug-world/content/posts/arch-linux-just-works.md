@@ -1,7 +1,7 @@
 ---
 title: "Arch Linux Just Works"
 date: 2022-06-20T09:19:12-06:00
-tags: ['tutorial', 'youtube']
+tags: ['tutorial', 'youtube', 'linux']
 ---
 [![Arch Linux](/images/posts/arch-linux-just-works/arch-linux.webp)](https://www.youtube.com/watch?v=ZGcrjX-xlfk)
 [Full video on YouTube](https://www.youtube.com/watch?v=ZGcrjX-xlfk)

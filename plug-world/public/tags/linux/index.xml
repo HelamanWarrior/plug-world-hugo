@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on PlugWorld</title>
-    <link>https://plug-world.com/posts/</link>
-    <description>Recent content in Posts on PlugWorld</description>
+    <title>linux on PlugWorld</title>
+    <link>https://plug-world.com/tags/linux/</link>
+    <description>Recent content in linux on PlugWorld</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Jul 2022 11:43:17 -0600</lastBuildDate><atom:link href="https://plug-world.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jul 2022 11:43:17 -0600</lastBuildDate><atom:link href="https://plug-world.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing Bluetooth Xbox Controllers in Arch Linux</title>
       <link>https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/</link>
@@ -56,58 +56,6 @@ It contains the drivers for the Xbox One wireless controllers.
 This fixes the strange behavior of the operating system misinterpreting some of the controls on the controller.
 For example, my controller had issues with the right joystick and a few face buttons were mixed up.
 After installing the drivers those issues were resolved.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Brave Goggles Changes How I Search</title>
-      <link>https://plug-world.com/posts/brave-goggles-changes-how-i-search/</link>
-      <pubDate>Sat, 25 Jun 2022 11:59:47 -0600</pubDate>
-      
-      <guid>https://plug-world.com/posts/brave-goggles-changes-how-i-search/</guid>
-      <description>Full video on YouTube
-So if you didn&amp;rsquo;t know Brave, the company behind the Brave Browser, created a search engine not too long ago. Brave Search is actually a really interesting project. Brave advertises itself as a private search engine. Now I&amp;rsquo;m not here to talk about privacy. Just talking about the features of the project. But it&amp;rsquo;s up to you to trust them. Their source code is public, but their servers aren&amp;rsquo;t.</description>
-      <content:encoded><![CDATA[<p><a href="https://youtu.be/HZvrgZK43qg"><img loading="lazy" src="/images/posts/brave-goggles-changes-how-i-search/Thumbnail.webp" alt="Brave Goggles"  />
-</a>
-<a href="https://youtu.be/HZvrgZK43qg">Full video on YouTube</a></p>
-<p>So if you didn&rsquo;t know Brave, the company behind the <a href="https://brave.com/">Brave Browser</a>, created a <a href="https://search.brave.com/">search engine</a> not too long ago.
-Brave Search is actually a really interesting project.
-Brave advertises itself as a private search engine.
-Now I&rsquo;m not here to talk about privacy.
-Just talking about the features of the project.
-But it&rsquo;s up to you to trust them.
-Their <a href="https://github.com/orgs/brave/repositories">source code</a> is public, but their servers aren&rsquo;t.</p>
-<p>Brave created their own indexer for the results in Brave Search.
-This is not the case with other search engines like <a href="https://duckduckgo.com/">DuckDuckGo</a> and <a href="https://www.qwant.com/">Qwant</a>.
-Both of which use Bing results.
-This alone ranks Brave Search above other search engines for me.
-Just because it&rsquo;s actually different from the others.</p>
-<p>So what are <a href="https://search.brave.com/help/goggles">Brave Goggles</a>?
-They are essentially a way of filtering search results.
-Or as Brave puts it, &ldquo;Goggles act as a custom re-ranking on top of the Brave search index.&rdquo;
-The internet is full of garbage.
-So many websites copying each other, all fighting to be at the top.
-Gotta make that ad revenue.
-But with this new tool allows you to sift through all the garbage on the internet with ease.</p>
-<p><img loading="lazy" src="/images/posts/brave-goggles-changes-how-i-search/following-goggles.webp" alt="Following Goggles"  />
-</p>
-<p>Now you have full control to manually rank your search results.
-No more relying on an algorithm to do it for you.
-Brave says it best, &ldquo;Goggles allows users to counter any intrinsic biases in the algorithm.&rdquo;
-You can try out <a href="https://search.brave.com/goggles">Brave Goggles here</a>.
-Take a look at the Brave Goggles <a href="https://github.com/brave/goggles-quickstart/">source code</a>.
-If you look at <a href="https://raw.githubusercontent.com/brave/goggles-quickstart/main/goggles/tech_blogs.goggle">&ldquo;Tech Blogs&rdquo;</a> as an example, it shows every domain it is boosting and downranking.
-Really simple and easy syntax.
-All to make it easy for you to tailor your own results.</p>
-<p><img loading="lazy" src="/images/posts/brave-goggles-changes-how-i-search/goggles-syntax.webp" alt="Tech blogs Syntax"  />
-</p>
-<p>You can even find goggles that the community has made through the <a href="https://search.brave.com/goggles/discover">discovery page</a>.
-Whenever you make your custom goggles you will have the choice to make it public.</p>
-<p>I started following a few goggles.
-They have proven to be very helpful when searching for specific results.
-For example I would often look for programming solutions and have to filter with site:stackoverflow.com or site:github.com.
-Not anymore.
-Now I just use the <a href="https://search.brave.com/goggles/discover?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2FAdventistforever%2Fbrave-programming-goggle%2Fmain%2Fprogramming.goggle">&ldquo;Programming solutions&rdquo;</a> goggle and I get the results I need from Brave Search.</p>
 ]]></content:encoded>
     </item>
     
@@ -241,59 +189,6 @@ This leads to it taking more time hunting down packages.</p>
 Almost any app that runs on linux will probably be in there.
 Rarely are you ever gonna have to install dependencies or compile things yourself.
 Which is even easier for beginners.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Generating Slideshows Easily with Shotcut</title>
-      <link>https://plug-world.com/posts/generating-slideshows-easily-with-shotcut/</link>
-      <pubDate>Wed, 15 Jun 2022 14:24:37 -0600</pubDate>
-      
-      <guid>https://plug-world.com/posts/generating-slideshows-easily-with-shotcut/</guid>
-      <description>Full video on YouTube
-Context Shotcut is an open source video editor.
-From their forum I found out you can create slide shows with it. In the past I tried to create an ffmpeg script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.
-Tutorial Import all of your pictures into the playlist panel on the left hand side.</description>
-      <content:encoded><![CDATA[<p><a href="https://www.youtube.com/watch?v=jf2OVow17X8"><img loading="lazy" src="/images/posts/shotcut-slideshow-generator/thumbnail.webp" alt="Shotcut Interface"  />
-</a>
-<a href="https://www.youtube.com/watch?v=jf2OVow17X8">Full video on YouTube</a></p>
-<h2 id="context">Context</h2>
-<p><a href="https://shotcut.org/">Shotcut</a> is an open source video editor.</p>
-<p>From their <a href="https://forum.shotcut.org/t/slideshow-generator/19162">forum</a> I found out you can create slide shows with it. In the past I tried to create an <a href="https://ffmpeg.org/">ffmpeg</a> script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.</p>
-<h2 id="tutorial">Tutorial</h2>
-<ol>
-<li><strong>Import all</strong> of your pictures into the playlist panel on the left hand side.</li>
-<li><strong>Select all</strong> of the pictures that you want in the slideshow.
-<img loading="lazy" src="/images/posts/shotcut-slideshow-generator/highlight-photos-playlist.webp" alt="Shotcut Picture Selection"  />
-</li>
-<li>Open the <strong>playlist menu</strong>
-<img loading="lazy" src="/images/posts/shotcut-slideshow-generator/slideshow-playlist.webp" alt="Playlist menu"  />
-</li>
-<li>Click <strong>Add selected to Slideshow</strong></li>
-<li>Find what settings works best for your needs
-<img loading="lazy" src="/images/posts/shotcut-slideshow-generator/slideshow-properties.webp" alt="Slideshow properties"  />
-</li>
-</ol>
-<h2 id="fixing-the-lag">Fixing the Lag</h2>
-<p>You may have noticed the editor lagging as you watch the slideshow in the timeline. This seems like a very common issue with these open source video editors, but I have found a few settings that may speed it up for you.</p>
-<p>Go to settings then&hellip;</p>
-<ol>
-<li>Disable Scrub Audio</li>
-<li>Disable Realtime (frame dropping)</li>
-<li>Set preview scaling to 360p</li>
-<li>Go to proxy
-<ul>
-<li>Enable Use Proxy</li>
-<li>Enable Use Hardware Encoder</li>
-<li>Click Configure Hardware Encoder and double check that your using the correct GPU or APU.</li>
-</ul>
-</li>
-<li>Change Interpolation to Nearest Neighbor</li>
-</ol>
-<p>You probably don&rsquo;t need to go as extreme as I have for the example above. Feel free to play around with each of those settings.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>And boom, you got a slideshow!</p>
-<p>It may not be perfect, but it gets the job done quickly with quite a bit of customization.</p>
 ]]></content:encoded>
     </item>
     
@@ -490,61 +385,6 @@ Nginx is a <strong>web server</strong> and a <strong>reverse proxy</strong>. <a 
 </span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
 <p>Just getting started with self hosting applications is a difficult task. Especially if you don&rsquo;t have any prior Linux experience.</p>
 <p>It&rsquo;s dangerous to go alone, take this <a href="https://docs.linuxserver.io/">Linux Server docs</a>. Everything over there is very beginner friendly and extremely useful when getting started on your self hosting journey.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Setting Up a Bluray Plex Server - From Start to Finish</title>
-      <link>https://plug-world.com/posts/setting-up-a-bluray-plex-server/</link>
-      <pubDate>Wed, 27 Apr 2022 16:49:45 -0600</pubDate>
-      
-      <guid>https://plug-world.com/posts/setting-up-a-bluray-plex-server/</guid>
-      <description>The Plexining 🎬 Ever since we got our NAS we had Plex on it. But we didn&amp;rsquo;t have much on it. Plex is just a media server that hosts all your files and media in one easy to access streamable way. Anyways, I figured it&amp;rsquo;s about time to start utilizing this NAS a lot more. I needed to migrate our entire library of movies from Vudu, Amazon, and Google Play Movies to the NAS.</description>
-      <content:encoded><![CDATA[<h2 id="the-plexining-">The Plexining 🎬</h2>
-<p>Ever since we got our NAS we had Plex on it. But we didn&rsquo;t have much on it. <a href="https://www.plex.tv/">Plex</a> is just a media server that hosts all your files and media in one easy to access streamable way. Anyways, I figured it&rsquo;s about time to start utilizing this NAS a lot more. I needed to migrate our entire library of movies from Vudu, Amazon, and Google Play Movies to the NAS. Since I don&rsquo;t wanna be a pirate I&rsquo;m gonna do things the hard way.</p>
-<p>I also use Jellyfin on my media server as a backup if my NAS can&rsquo;t reach Plex&rsquo;s servers. Which is kinda dumb to selfhost Plex and than still be dependent on their own servers to be online. But whatever, still own my own media so if Plex doesn&rsquo;t work I can easily move to the next platform.</p>
-<p>I decided to mainly use Plex because&hellip;</p>
-<ul>
-<li>My dad already owned Plex Pass. (Basically allows for transcoding and DVR functionality)</li>
-<li>The app works natively on our smart tv. But it&rsquo;s extremely slow and terrible, but better than nothing.</li>
-<li>It supports automatically deleting commericials on live tv.</li>
-<li>HDR to SDR tonemapping support actually works. (Jellyfin doesn&rsquo;t natively support it but you can use an external media player that does)</li>
-</ul>
-<h2 id="the-rippining-">The Rippining 📀</h2>
-<p>We owned like 3 movies on BluRay, and already had a drive that I can rip from. So it was time to get to work. The process suprisingly wasn&rsquo;t too difficult. MakeMKV does most of the heavylifting for you. All MakeMKV does is bypass the DRM on the disc and decrypt it leading you with an h.264 video that gets containerized into a mkv file. Most of the movies on BluRays range from 20gb to 100gb. If that&rsquo;s too much for you, you can always compress them down in smaller sizes using handbrake.</p>
-<p>My recommended <a href="https://handbrake.fr/">HandBrake</a> settings for compressing BluRays&hellip;</p>
-<ul>
-<li>Format: Matroska</li>
-<li>Encoder: H.265 10 bit</li>
-<li>FrameRate: Same as Video</li>
-<li>FrameRate: Constant</li>
-<li>Quality: 20</li>
-<li>Audio make sure to include 5.7 surround sound or 7.1 based on your setup.</li>
-<li>You can also compress the audio down to 640kbps if you so choose.</li>
-</ul>
-<p>The reason I use h265 is for the high amount of detail that remains once you compress. But it has a few major drawbacks.</p>
-<p>These drawbacks include&hellip;</p>
-<ul>
-<li>A lot of resources to compress video footage.</li>
-<li>The codec has tons of licensing issues, so playback may not be native on your device.</li>
-<li>Due to the licensing issues not all devices support h265</li>
-</ul>
-<p>If you are reading this article in the future, you may want to consider compressing videos in AV1. I hear that&rsquo;s gonna be the next big thing. AV1 at its core is essentially just like h265 whereas it perserves a lot of details at a highly compressed size. But the codec is open source and doesn&rsquo;t have any licensing issues. It&rsquo;s also quite a bit more efficent than h265, so you will be expirencing better quality at the same file size. The only issue is at the time of writing this article, nobody really supports it much. So as that changes it may be a good thing to look into if you are concerned about storage space.</p>
-<h2 id="makemkv-on-linux-small-guide">MakeMKV on Linux: Small Guide</h2>
-<p>I installed MakeMKV on Arch Linux, so this won&rsquo;t apply to Debian users (sorry).</p>
-<p>If you are on debian you can look <a href="https://forum.makemkv.com/forum/viewtopic.php?f=3&amp;t=224">here</a>. I had issues doing the official downloads and compilation on my end. But I&rsquo;m sure that was my fault in the first place.</p>
-<p>But I was able to get my own build of MakeMKV on the <a href="https://aur.archlinux.org/packages/makemkv/">AUR (Arch User Repository)</a> and that seemed to be working just fine for me. Also auto updates are way cool. You also want to make sure you get the <a href="https://aur.archlinux.org/packages/makemkv-libaacs/">aacs libraries</a> for Linux.</p>
-<p>Optical drives on Arch Linux is kind of a pain to get working. If you get the error that MakeMKV can&rsquo;t find any Optical Drives in Arch Linux, it&rsquo;s not MakeMKV&rsquo;s fault. I found the solution to this problem in this <a href="https://www.reddit.com/r/makemkv/comments/r3jijh/arch_linux_this_program_cant_find_any_usable/">Reddit post</a>. According to the post the solution is to: &ldquo;Create a file on /etc/modules-load.d/ with the content sg then reboot. Mine is named sg.conf but the name is totally arbitrary.&rdquo;</p>
-<p>And that should be everything, that&rsquo;s everything I needed to do to get this to work.</p>
-<h2 id="issues-ripping-new-movies-">Issues Ripping New Movies? ❌</h2>
-<p>MakeMKV is able to decrypt movies by using of Volume Unique Keys (VUKS) from a database. If you have a recent movie that won&rsquo;t rip, then on MakeMKV go download the latest keys from <a href="http://fvonline-db.bplaced.net/">FindVUK Online Database.</a> Then place the keydb.cfg file in the folder that MakeMKV is installed in. It should automatically recognize it and use the local database in combination with their own online database. If you are still having issues, there are tools to manually get the VUK key but it will require <a href="https://www.dvdfab.cn/">DVDfab</a> and another tool called <a href="https://forum.doom9.org/showthread.php?t=172472">FindVUK</a> to extract the VUK from memory on DVDfab.</p>
-<h2 id="drives-matter">Drives Matter</h2>
-<p>The Blu-Ray drive you use for ripping can make all of the difference. When ripping movies you need to get a perfect copy off of the drive, if there&rsquo;s any piece of data or information that can&rsquo;t be read on the drive it will be unable to rip. Certain Blu-Ray drives are much more affective when reading scratched disks. With my old Blu-Ray player I would have what seems to be a perfect copy of the movie, no scratches noticable, and yet it would run into read errors. They can also have faster read speeds which will speed up the process of ripping each disk.</p>
-<h2 id="libredrive-">Libredrive 🪛</h2>
-<p>Libedrive is very cool because, many blu-ray players &ldquo;don&rsquo;t support 4k (UHD).&rdquo; Yet they are fully capable of playing them back. There&rsquo;s just this little police in the firmware that tells it to not play back the 4k disk. With Libredrive we are effectively overwriting the firmware on the disk to force it to play back any sort of disk in the system.</p>
-<p>If you are planning on getting a Blu-Ray player I definitely recommend getting one that Libredrive supports. It only supports very specific drives, but you can find what drive to get on the <a href="https://forum.makemkv.com/forum/viewtopic.php?t=19634">MakeMKV forums</a></p>
-<h2 id="conclusion">Conclusion</h2>
-<p>Owning my media is important to me. Unfortunately with movies you can&rsquo;t really own your movies &ldquo;legally.&rdquo; The simple act of breaking the encryption on the disk is illegal. Yet creating personal backups of media is totally legal. So kind of in the gray area, but since I am buying copies of physical media from the official retailers I feel like it&rsquo;s ethical to do this. If you typically stream your media and don&rsquo;t watch very many Blu-Rays you are gonna see a huge jump in quality. The bitrate makes all of the difference, resolutions are overrated, you can be watching a highly compressed 4k stream on Netflix and a 1080p Blu-Ray will almost always look better than that compressed stream. To a typical person this isn&rsquo;t easy and they would opt for just watching all their movies on streaming services. And I can agree, it&rsquo;s not user friendly and your going to have to maintain your own server. But I enjoy it, so that&rsquo;s how I&rsquo;m gonna watch my media.</p>
 ]]></content:encoded>
     </item>
     

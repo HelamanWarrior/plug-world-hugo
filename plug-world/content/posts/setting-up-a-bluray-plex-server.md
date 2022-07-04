@@ -1,7 +1,7 @@
 ---
 title: "Setting Up a Bluray Plex Server - From Start to Finish"
 date: 2022-04-27T16:49:45-06:00
-tags: ['tech', 'tutorial', 'selfhosting']
+tags: ['tech', 'tutorial']
 ---
 ## The Plexining 🎬 
 Ever since we got our NAS we had Plex on it. But we didn't have much on it. [Plex](https://www.plex.tv/) is just a media server that hosts all your files and media in one easy to access streamable way. Anyways, I figured it's about time to start utilizing this NAS a lot more. I needed to migrate our entire library of movies from Vudu, Amazon, and Google Play Movies to the NAS. Since I don't wanna be a pirate I'm gonna do things the hard way.

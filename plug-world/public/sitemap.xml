@@ -2,19 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://plug-world.com/posts/brave-goggles-changes-how-i-search/</loc>
-    <lastmod>2022-06-25T11:59:47-06:00</lastmod>
+    <loc>https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/</loc>
+    <lastmod>2022-07-03T11:43:17-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/tags/linux/</loc>
+    <lastmod>2022-07-03T11:43:17-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/</loc>
-    <lastmod>2022-06-25T11:59:47-06:00</lastmod>
+    <lastmod>2022-07-03T11:43:17-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/posts/</loc>
-    <lastmod>2022-06-25T11:59:47-06:00</lastmod>
+    <lastmod>2022-07-03T11:43:17-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/tags/</loc>
-    <lastmod>2022-06-25T11:59:47-06:00</lastmod>
+    <lastmod>2022-07-03T11:43:17-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/tags/tutorial/</loc>
+    <lastmod>2022-07-03T11:43:17-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/tags/docker/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/docker-compose-files/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/docker-compose-files/jellyfin/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/docker-compose-files/synapse/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/docker-compose-files/nextcloud/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/docker-compose-files/photoview/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/docker-compose-files/plex/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/docker-compose-files/searxng/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/docker-compose-files/swag/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/docker-compose-files/syncthing/</loc>
+    <lastmod>2022-07-03T17:18:20+00:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/posts/brave-goggles-changes-how-i-search/</loc>
     <lastmod>2022-06-25T11:59:47-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/tags/youtube/</loc>
@@ -38,12 +74,6 @@
     <loc>https://plug-world.com/posts/building-a-nas/</loc>
     <lastmod>2022-06-08T11:11:01-06:00</lastmod>
   </url><url>
-    <loc>https://plug-world.com/tags/docker/</loc>
-    <lastmod>2022-06-08T11:11:01-06:00</lastmod>
-  </url><url>
-    <loc>https://plug-world.com/tags/selfhosting/</loc>
-    <lastmod>2022-06-08T11:11:01-06:00</lastmod>
-  </url><url>
     <loc>https://plug-world.com/posts/setting-up-a-bluray-plex-server/</loc>
     <lastmod>2022-04-27T16:49:45-06:00</lastmod>
   </url><url>
@@ -53,23 +83,7 @@
   </url><url>
     <loc>https://plug-world.com/contact/</loc>
   </url><url>
-    <loc>https://plug-world.com/docker-compose-files/</loc>
-  </url><url>
     <loc>https://plug-world.com/games/</loc>
-  </url><url>
-    <loc>https://plug-world.com/docker-compose-files/jellyfin/</loc>
-  </url><url>
-    <loc>https://plug-world.com/docker-compose-files/synapse/</loc>
-  </url><url>
-    <loc>https://plug-world.com/docker-compose-files/nextcloud/</loc>
-  </url><url>
-    <loc>https://plug-world.com/docker-compose-files/photoview/</loc>
-  </url><url>
-    <loc>https://plug-world.com/docker-compose-files/plex/</loc>
-  </url><url>
-    <loc>https://plug-world.com/docker-compose-files/searxng/</loc>
-  </url><url>
-    <loc>https://plug-world.com/docker-compose-files/syncthing/</loc>
   </url><url>
     <loc>https://plug-world.com/videos/</loc>
   </url>
