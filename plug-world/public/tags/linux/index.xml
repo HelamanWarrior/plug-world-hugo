@@ -5,7 +5,40 @@
     <link>https://plug-world.com/tags/linux/</link>
     <description>Recent content in linux on PlugWorld</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Jul 2022 11:43:17 -0600</lastBuildDate><atom:link href="https://plug-world.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jul 2022 21:45:46 -0600</lastBuildDate><atom:link href="https://plug-world.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grub and OS Prober in Arch Linux</title>
+      <link>https://plug-world.com/posts/grub-and-os-prober-in-arch-linux/</link>
+      <pubDate>Tue, 05 Jul 2022 21:45:46 -0600</pubDate>
+      
+      <guid>https://plug-world.com/posts/grub-and-os-prober-in-arch-linux/</guid>
+      <description>This guide is tailored to people that are dualbooting Linux and Windows. The exact same steps can accomplish adding another Linux OS to the bootloader.
+Prerequisites sudo pacman -S grub efibootmgr os-prober ntfs-3g Mounting Windows Drive sudo mount -t ntfs-3g /dev/sda2 /mnt Don&amp;rsquo;t just copy this command. Make sure you use the correct drive. You can find each drive by name when using lsblk. Usually you want to mount the smallest partition.</description>
+      <content:encoded><![CDATA[<p>This guide is tailored to people that are dualbooting Linux and Windows.
+The exact same steps can accomplish adding another Linux OS to the bootloader.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S grub efibootmgr os-prober ntfs-3g
+</span></span></code></pre></div><h2 id="mounting-windows-drive">Mounting Windows Drive</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mount -t ntfs-3g /dev/sda2 /mnt
+</span></span></code></pre></div><p><strong>Don&rsquo;t just copy this command.</strong>
+<em>Make sure you use the correct drive.</em>
+You can find each drive by name when using <code>lsblk</code>.
+Usually you want to mount the smallest partition.
+That will contain the boot manager for that specific operating system.
+For Windows mine was the second partition, but that may change, so just check yours just in case.</p>
+<h2 id="enable-os-prober">Enable OS Prober</h2>
+<p>Edit <code>/etc/default/grub</code> and uncomment:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>GRUB_DISABLE_OS_PROBER<span style="color:#f92672">=</span>false
+</span></span></code></pre></div><p>This allows OS Prober to scan for other operating systems and add them to the bootloader.</p>
+<h2 id="making-grub-the-bootloader">Making Grub the bootloader</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo grub-mkconfig -o /boot/grub/grub.cfg
+</span></span></code></pre></div><p>Generate grubs config, OS Prober should do it&rsquo;s thing and add all detected operating systems to Grub.
+If it misses one, make sure you have it mounted.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo grub-install --target<span style="color:#f92672">=</span>x86_64-efi --efi-directory<span style="color:#f92672">=</span>/boot/efi --bootloader-id<span style="color:#f92672">=</span>grub --recheck
+</span></span></code></pre></div><p>This makes Grub the bootloader.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Fixing Bluetooth Xbox Controllers in Arch Linux</title>
       <link>https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/</link>
