@@ -1,9 +1,12 @@
 ---
-title: "Snowbasin Hike"
+title: Snowbasin Hike
 date: 2022-07-02T09:27:45-06:00
 ---
+
 Went for a hike up in Snowbasin. 
 It was just me, Mia and my mom.
+
+![Image](./8fb722b63b782302a1d26071bbb45ef1.jpg) 
 
 ![Image](/images/microblog/94e53bf17c9d8d72b122d78572e4e24b.jpg) 
 
