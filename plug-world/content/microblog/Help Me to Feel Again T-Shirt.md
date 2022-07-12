@@ -1,8 +1,16 @@
 ---
 date: 2022-07-12T15:32:22-06:00
-modified: 2022-07-12T15:37:40-06:00
+modified: 2022-07-12T16:34:23-06:00
 title: Help Me to Feel Again T-Shirt
 aliases: [/microblog]
 ---
 
-Big fan of Judah & the Lion and their music, wasn't happy with their merch so decided to make my own shirt.
+![Image](../../static/images/microblog/0f9d5f6d527a0c24dd86683872e26de8.jpg) 
+
+I was looking for T-shirts with cool graphics and designs.
+Found a few good looking T-shirts, but I've decided that I should just make a few of my own.
+I really liked the design on Judah & the Lion's album covers from their 3 singles: Spirit, Beautiful Anyway, and Help Me to Feel Again. 
+So I ended up making a T-Shirt from it.
+
+I think it turned out pretty well.
+Definitely planning on making more T-shirts like this in the future.
