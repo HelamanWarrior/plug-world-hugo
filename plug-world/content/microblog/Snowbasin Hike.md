@@ -18,4 +18,4 @@ Most of it was pretty flat there was a little bit of uphill, but overall pretty 
 {{< img src="/images/microblog/dc2ebff245d569cd03744250b698c6d6.jpg" >}}
 
 Mia tried to count butterflies, after 12 we lost count.
-We also saw a rattle snake on the way back.
+On the way back we ran into a rattle snake, so that was pretty cool.
