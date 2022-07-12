@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Microblogs on PlugWorld</title>
+    <title>MicroBlog on PlugWorld</title>
     <link>https://plug-world.com/microblog/</link>
-    <description>Recent content in Microblogs on PlugWorld</description>
+    <description>Recent content in MicroBlog on PlugWorld</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 02 Jul 2022 09:27:45 -0600</lastBuildDate><atom:link href="https://plug-world.com/microblog/index.xml" rel="self" type="application/rss+xml" />
     <item>

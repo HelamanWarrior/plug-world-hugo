@@ -11,8 +11,11 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowFullTextinRSS: true
   ShowToc: true
+  ShowPostNavLinks: true
   hideSummary: true
   ShowReadingTime: false
+
+  mainSections: "/microblog"
 
   profilemode:
     enabled: true
