@@ -5,7 +5,7 @@ title: Help Me to Feel Again T-Shirt
 aliases: [/microblog]
 ---
 
-![Image](../../static/images/microblog/0f9d5f6d527a0c24dd86683872e26de8.jpg) 
+{{< img src="images/microblog/help-me-to-feel-again-tshirt-wip.jpg" >}}
 
 I was looking for T-shirts with cool graphics and designs.
 Found a few good looking T-shirts, but I've decided that I should just make a few of my own.
