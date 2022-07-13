@@ -9,8 +9,11 @@ aliases: [/microblog]
 
 I was looking for T-shirts with cool graphics and designs.
 Found a few good looking T-shirts, but I've decided that I should just make a few of my own.
-I really liked the design on Judah & the Lion's album covers from their 3 singles: Spirit, Beautiful Anyway, and Help Me to Feel Again. 
-So I ended up making a T-Shirt from it.
+
+I really liked the designs from Judah & the Lion's album covers. 
+They released 3 singles in the same style: Spirit, Beautiful Anyway, and Help Me to Feel Again. 
+
+So I ended up making a T-Shirt from one of them.
 
 I think it turned out pretty well.
 Definitely planning on making more T-shirts like this in the future.

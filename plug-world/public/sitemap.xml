@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://plug-world.com/</loc>
+    <lastmod>2022-07-12T17:09:03-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/posts/</loc>
+    <lastmod>2022-07-12T17:09:03-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/posts/using-a-blog-instead-of-social-media/</loc>
+    <lastmod>2022-07-12T17:09:03-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/microblog/help-me-to-feel-again-t-shirt/</loc>
+    <lastmod>2022-07-12T16:34:23-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/microblog/</loc>
+    <lastmod>2022-07-12T16:34:23-06:00</lastmod>
+  </url><url>
     <loc>https://plug-world.com/posts/grub-and-os-prober-in-arch-linux/</loc>
     <lastmod>2022-07-05T21:45:46-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/tags/linux/</loc>
-    <lastmod>2022-07-05T21:45:46-06:00</lastmod>
-  </url><url>
-    <loc>https://plug-world.com/</loc>
-    <lastmod>2022-07-05T21:45:46-06:00</lastmod>
-  </url><url>
-    <loc>https://plug-world.com/posts/</loc>
     <lastmod>2022-07-05T21:45:46-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/tags/</loc>
@@ -52,9 +61,6 @@
   </url><url>
     <loc>https://plug-world.com/docker-compose-files/syncthing/</loc>
     <lastmod>2022-07-03T17:18:20+00:00</lastmod>
-  </url><url>
-    <loc>https://plug-world.com/microblog/</loc>
-    <lastmod>2022-07-02T09:27:45-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/microblog/snowbasin-hike/</loc>
     <lastmod>2022-07-02T09:27:45-06:00</lastmod>

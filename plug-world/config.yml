@@ -10,6 +10,7 @@ params:
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowFullTextinRSS: true
+  ShowBreadCrumbs: true
   ShowToc: true
   ShowPostNavLinks: true
   hideSummary: true
@@ -17,7 +18,7 @@ params:
 
   mainSections: "/microblog"
 
-  profilemode:
+  profileMode:
     enabled: true
     Title: "PlugWorld 📺"
     subtitle: "I make video games, videos, and tutorials."
