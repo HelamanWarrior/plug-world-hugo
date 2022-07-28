@@ -76,17 +76,25 @@ I will instead be using my <a href="/microblog">microblog</a>.</p>
 <li>Posts on my microblog will be similar to how I would post on Instagram.</li>
 <li>I will keep my <a href="/posts">blog</a> seperate, because my posts there will be more technical and informational.</li>
 </ul>
-<p>I stay connected with friends by using <a href="https://instaloader.github.io/">Instaloader</a>.
-Which basically allows me to download the posts and stories from the people I follow and watch that content locally on my computer.</p>
-<p>This is great because&hellip;</p>
+<p>I use the regular Instagram web client.
+I dabbled using <a href="https://instaloader.github.io/">Instaloader</a>.
+Which is basically just a Instagram command line scraper, but it almost led to me getting banned.
+So I guess I won&rsquo;t be going with that.</p>
+<p>Advantages using Instagram web instead of the app&hellip;</p>
+<ol>
+<li>No ads and less tracking.
 <ul>
-<li>I only see the content from the people I follow.</li>
-<li>It doesn&rsquo;t support Instagram since I&rsquo;m not using their official site and viewing ads.</li>
-<li>There is no addiction. Limited amount of content, not engineered in a way to take as much attention as possible.</li>
+<li>Using <a href="https://ublockorigin.com/">uBlockOrigin</a> addon to block them along with the <a href="https://f-droid.org/en/packages/us.spotco.fennec_dos/">Mull browser</a>.</li>
 </ul>
+</li>
+<li>No promotion of accounts I don&rsquo;t follow.</li>
+<li>Tiktok style stories aren&rsquo;t in the feed.</li>
+</ol>
+<p>Basically I only see the posts of people I follow.</p>
 <p>Anyways, social media is messy and big tech is making it a terrible platform to be on.
-Social media isn&rsquo;t all bad, it has definitely been used for good.
-People have good intentions but they often get sucked away by this.</p>
+Social media isn&rsquo;t all bad, it&rsquo;s definitely being used for good.
+But the platforms are designed to work against you for your attention.
+So it&rsquo;s best to have alternative ways of reaching others, not just through social media.</p>
 <h2 id="get-a-website">Get a Website</h2>
 <p>If you are reading this and you don&rsquo;t have a website, I encourage you <strong>get a website!</strong></p>
 <p>Everyone uses the same 5 websites, it&rsquo;s important that you own your own land on the internet.

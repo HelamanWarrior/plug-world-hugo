@@ -5,7 +5,24 @@
     <link>https://plug-world.com/</link>
     <description>Recent content on PlugWorld</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Jul 2022 22:36:28 -0600</lastBuildDate><atom:link href="https://plug-world.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jul 2022 16:05:59 -0600</lastBuildDate><atom:link href="https://plug-world.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back From Glacier and Canada 🇨🇦</title>
+      <link>https://plug-world.com/microblog/back-from-glacier-and-canada/</link>
+      <pubDate>Wed, 27 Jul 2022 16:05:59 -0600</pubDate>
+      
+      <guid>https://plug-world.com/microblog/back-from-glacier-and-canada/</guid>
+      <description>Just got back home after a long trip to Glacier and Canada. Had lots of fun, went to the Sun Road, Banff, Lake Louisse, and saw quite a few bears in Canada.
+Currently working on a family video for this trip. I&amp;rsquo;ll post it here, once it&amp;rsquo;s finished. If you didn&amp;rsquo;t know I make family memory videos of every trip we go on. You can find them here.</description>
+      <content:encoded><![CDATA[<p>Just got back home after a long trip to Glacier and Canada.
+Had lots of fun, went to the Sun Road, Banff, Lake Louisse, and saw quite a few bears in Canada.</p>
+<p>Currently working on a family video for this trip.
+I&rsquo;ll post it here, once it&rsquo;s finished.
+If you didn&rsquo;t know I make family memory videos of every trip we go on.
+You can <a href="https://www.youtube.com/c/ParkerAnderson/videos">find them here.</a></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Youth Conference</title>
       <link>https://plug-world.com/microblog/youth-conference/</link>
@@ -226,17 +243,25 @@ I will instead be using my <a href="/microblog">microblog</a>.</p>
 <li>Posts on my microblog will be similar to how I would post on Instagram.</li>
 <li>I will keep my <a href="/posts">blog</a> seperate, because my posts there will be more technical and informational.</li>
 </ul>
-<p>I stay connected with friends by using <a href="https://instaloader.github.io/">Instaloader</a>.
-Which basically allows me to download the posts and stories from the people I follow and watch that content locally on my computer.</p>
-<p>This is great because&hellip;</p>
+<p>I use the regular Instagram web client.
+I dabbled using <a href="https://instaloader.github.io/">Instaloader</a>.
+Which is basically just a Instagram command line scraper, but it almost led to me getting banned.
+So I guess I won&rsquo;t be going with that.</p>
+<p>Advantages using Instagram web instead of the app&hellip;</p>
+<ol>
+<li>No ads and less tracking.
 <ul>
-<li>I only see the content from the people I follow.</li>
-<li>It doesn&rsquo;t support Instagram since I&rsquo;m not using their official site and viewing ads.</li>
-<li>There is no addiction. Limited amount of content, not engineered in a way to take as much attention as possible.</li>
+<li>Using <a href="https://ublockorigin.com/">uBlockOrigin</a> addon to block them along with the <a href="https://f-droid.org/en/packages/us.spotco.fennec_dos/">Mull browser</a>.</li>
 </ul>
+</li>
+<li>No promotion of accounts I don&rsquo;t follow.</li>
+<li>Tiktok style stories aren&rsquo;t in the feed.</li>
+</ol>
+<p>Basically I only see the posts of people I follow.</p>
 <p>Anyways, social media is messy and big tech is making it a terrible platform to be on.
-Social media isn&rsquo;t all bad, it has definitely been used for good.
-People have good intentions but they often get sucked away by this.</p>
+Social media isn&rsquo;t all bad, it&rsquo;s definitely being used for good.
+But the platforms are designed to work against you for your attention.
+So it&rsquo;s best to have alternative ways of reaching others, not just through social media.</p>
 <h2 id="get-a-website">Get a Website</h2>
 <p>If you are reading this and you don&rsquo;t have a website, I encourage you <strong>get a website!</strong></p>
 <p>Everyone uses the same 5 websites, it&rsquo;s important that you own your own land on the internet.

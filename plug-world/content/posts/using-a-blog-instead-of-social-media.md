@@ -50,17 +50,23 @@ I will instead be using my [microblog](/microblog).
 - Posts on my microblog will be similar to how I would post on Instagram.
 - I will keep my [blog](/posts) seperate, because my posts there will be more technical and informational.
 
-I stay connected with friends by using [Instaloader](https://instaloader.github.io/).
-Which basically allows me to download the posts and stories from the people I follow and watch that content locally on my computer.
+I use the regular Instagram web client.
+I dabbled using [Instaloader](https://instaloader.github.io/).
+Which is basically just a Instagram command line scraper, but it almost led to me getting banned.
+So I guess I won't be going with that.
 
-This is great because...
-- I only see the content from the people I follow.
-- It doesn't support Instagram since I'm not using their official site and viewing ads.
-- There is no addiction. Limited amount of content, not engineered in a way to take as much attention as possible.
+Advantages using Instagram web instead of the app...
+1. No ads and less tracking.
+	- Using [uBlockOrigin](https://ublockorigin.com/) addon to block them along with the [Mull browser](https://f-droid.org/en/packages/us.spotco.fennec_dos/).
+2. No promotion of accounts I don't follow.
+3. Tiktok style stories aren't in the feed.
+
+Basically I only see the posts of people I follow.
 
 Anyways, social media is messy and big tech is making it a terrible platform to be on.
-Social media isn't all bad, it has definitely been used for good.
-People have good intentions but they often get sucked away by this.
+Social media isn't all bad, it's definitely being used for good.
+But the platforms are designed to work against you for your attention.
+So it's best to have alternative ways of reaching others, not just through social media.
 
 ## Get a Website
 If you are reading this and you don't have a website, I encourage you **get a website!** 
