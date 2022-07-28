@@ -21,7 +21,7 @@ params:
   profileMode:
     enabled: true
     Title: "PlugWorld 📺"
-    subtitle: "I make video games, videos, and tutorials."
+    subtitle: "17, doin' things on computers."
     imageUrl: "/images/profile/profile-pic.webp"
 
   socialIcons:
