@@ -11,10 +11,7 @@ url: "/contact"
 ------------------
 
 Donate Monero:
-
-Feel free to put your email in the description.
-That way I can send you my [Patreon files](https://www.patreon.com/plugworld).
-![QR Code](/images/profile/xmr-donations.png#center)
 ```
 43B6vNdEAK7PjxpeWBwbkUfbLbVBRLttocZkSTiXYGV9abNjNEqZbCpeiPuQPsPHBp9tQm5iByoGBSHQemovDxZSQyczYe9
 ```
+![QR Code](/images/profile/xmr-donations.png#center)
