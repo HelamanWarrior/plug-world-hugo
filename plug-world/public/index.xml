@@ -909,7 +909,50 @@ On the way back we ran into a rattle snake, so that was pretty cool.</p>
       <guid>https://plug-world.com/posts/brave-goggles-changes-how-i-search/</guid>
       <description>Full video on YouTube
 So if you didn&amp;rsquo;t know Brave, the company behind the Brave Browser, created a search engine not too long ago. Brave Search is actually a really interesting project. Brave advertises itself as a private search engine. Now I&amp;rsquo;m not here to talk about privacy. Just talking about the features of the project. But it&amp;rsquo;s up to you to trust them. Their source code is public, but their servers aren&amp;rsquo;t.</description>
-      <content:encoded><![CDATA[<p><a href="https://youtu.be/HZvrgZK43qg"><img loading="lazy" src="/images/posts/brave-goggles-changes-how-i-search/Thumbnail.webp" alt="Brave Goggles"  />
+      <content:encoded><![CDATA[<p><a href="https://youtu.be/HZvrgZK43qg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img
+  
+  sizes="(min-width: 35em) 720px, 100vw"
+  srcset='
+  
+    /images/posts/brave-goggles-changes-how-i-search/Thumbnail_hua4ed1c4fb5db1b84bff28db420c034ef_1018309_500x0_resize_q85_h2_box_3.webp 500w
+  
+  
+    , /images/posts/brave-goggles-changes-how-i-search/Thumbnail_hua4ed1c4fb5db1b84bff28db420c034ef_1018309_800x0_resize_q85_h2_box_3.webp 800w
+  
+  
+    , /images/posts/brave-goggles-changes-how-i-search/Thumbnail_hua4ed1c4fb5db1b84bff28db420c034ef_1018309_1200x0_resize_q85_h2_box_3.webp 1200w
+  '
+  
+    src="/images/posts/brave-goggles-changes-how-i-search/Thumbnail.png"
+  
+  alt="">
+
+
 </a>
 <a href="https://youtu.be/HZvrgZK43qg">Full video on YouTube</a></p>
 <p>So if you didn&rsquo;t know Brave, the company behind the <a href="https://brave.com/">Brave Browser</a>, created a <a href="https://search.brave.com/">search engine</a> not too long ago.
@@ -1613,13 +1656,16 @@ Donate Monero:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://plug-world.com/games/</guid>
-      <description> </description>
+      <description>The rest of my games are on itch.io</description>
       <content:encoded><![CDATA[<p><a href="https://plug-world.com/carls-crude-combat"><img loading="lazy" src="/images/game-covers/carls-crude-combat-cover.png" alt="Carls Crude Combat"  />
 </a>
 <a href="https://plug-world.com/seadefender"><img loading="lazy" src="/images/game-covers/sea-defender-cover.png" alt="SeaDefender"  />
 </a>
 <a href="https://plug-world.com/gunnerguy"><img loading="lazy" src="/images/game-covers/gunner-guy-cover.png" alt="GunnerGuy"  />
 </a></p>
+<hr>
+<p style="text-align: center">The rest of my games are on <a href="https://plugworldg.itch.io/">itch.io</a></p>
+
 ]]></content:encoded>
     </item>
     

@@ -3,7 +3,7 @@ title: "Brave Goggles Changes How I Search"
 date: 2022-06-25T11:59:47-06:00
 tags: ['tutorial', 'youtube']
 ---
-[![Brave Goggles](/images/posts/brave-goggles-changes-how-i-search/Thumbnail.webp)](https://youtu.be/HZvrgZK43qg)
+[{{< img src="images/posts/brave-goggles-changes-how-i-search/Thumbnail.png" >}}](https://youtu.be/HZvrgZK43qg)
 [Full video on YouTube](https://youtu.be/HZvrgZK43qg)
 
 So if you didn't know Brave, the company behind the [Brave Browser](https://brave.com/), created a [search engine](https://search.brave.com/) not too long ago.
