@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>privacy on PlugWorld</title>
+    <link>https://plug-world.com/tags/privacy/</link>
+    <description>Recent content in privacy on PlugWorld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Aug 2022 11:04:08 -0600</lastBuildDate><atom:link href="https://plug-world.com/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recommended Browser Extensions</title>
+      <link>https://plug-world.com/posts/recommended-browser-extensions/</link>
+      <pubDate>Mon, 01 Aug 2022 11:04:08 -0600</pubDate>
+      
+      <guid>https://plug-world.com/posts/recommended-browser-extensions/</guid>
+      <description>uBlock Origin An efficient blocker add-on, blocks ads and trackers. Privacy Badger Advanced invisible tracker blocker. Decentraleyes Blocks centralized content delivery. Instead of fetching common files from Google hosted libraries, it serves local files. Clear URLs Removes tracking elements from URLs. Cookie Auto Delete Automatically deletes cookies from websites, whitelist websites you use to keep their cookies. I don&amp;rsquo;t care about cookies Gets rid of popups asking about cookies on websites.</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a>
+<ul>
+<li>An efficient blocker add-on, blocks ads and trackers.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/">Privacy Badger</a>
+<ul>
+<li>Advanced invisible tracker blocker.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/">Decentraleyes</a>
+<ul>
+<li>Blocks centralized content delivery. Instead of fetching common files from Google hosted libraries, it serves local files.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/clearurls/">Clear URLs</a>
+<ul>
+<li>Removes tracking elements from URLs.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/">Cookie Auto Delete</a>
+<ul>
+<li>Automatically deletes cookies from websites, whitelist websites you use to keep their cookies.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/">I don&rsquo;t care about cookies</a>
+<ul>
+<li>Gets rid of popups asking about cookies on websites.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/libredirect/">Libredirect</a>
+<ul>
+<li>Automatically redirects to privacy respecting alternatives to websites. For example Youtube -&gt; Invidious, Twitter -&gt; Nitter, Reddit -&gt; Libreddit.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/watch-on-odysee/">Watch on Odysee</a>
+<ul>
+<li>Videos available on Odysee platform will be redirected.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>All together with <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> and custom profile from <a href="https://ffprofile.com/">ffprofilemaker</a>.</p>
+<p>On Android I use the <a href="https://f-droid.org/en/packages/us.spotco.fennec_dos/">Mull browser</a> along with the supported extensions listed above.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

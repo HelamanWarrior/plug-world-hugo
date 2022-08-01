@@ -5,7 +5,62 @@
     <link>https://plug-world.com/posts/</link>
     <description>Recent content in Posts on PlugWorld</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jul 2022 17:09:03 -0600</lastBuildDate><atom:link href="https://plug-world.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Aug 2022 11:04:08 -0600</lastBuildDate><atom:link href="https://plug-world.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recommended Browser Extensions</title>
+      <link>https://plug-world.com/posts/recommended-browser-extensions/</link>
+      <pubDate>Mon, 01 Aug 2022 11:04:08 -0600</pubDate>
+      
+      <guid>https://plug-world.com/posts/recommended-browser-extensions/</guid>
+      <description>uBlock Origin An efficient blocker add-on, blocks ads and trackers. Privacy Badger Advanced invisible tracker blocker. Decentraleyes Blocks centralized content delivery. Instead of fetching common files from Google hosted libraries, it serves local files. Clear URLs Removes tracking elements from URLs. Cookie Auto Delete Automatically deletes cookies from websites, whitelist websites you use to keep their cookies. I don&amp;rsquo;t care about cookies Gets rid of popups asking about cookies on websites.</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a>
+<ul>
+<li>An efficient blocker add-on, blocks ads and trackers.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/">Privacy Badger</a>
+<ul>
+<li>Advanced invisible tracker blocker.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/">Decentraleyes</a>
+<ul>
+<li>Blocks centralized content delivery. Instead of fetching common files from Google hosted libraries, it serves local files.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/clearurls/">Clear URLs</a>
+<ul>
+<li>Removes tracking elements from URLs.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/">Cookie Auto Delete</a>
+<ul>
+<li>Automatically deletes cookies from websites, whitelist websites you use to keep their cookies.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/">I don&rsquo;t care about cookies</a>
+<ul>
+<li>Gets rid of popups asking about cookies on websites.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/libredirect/">Libredirect</a>
+<ul>
+<li>Automatically redirects to privacy respecting alternatives to websites. For example Youtube -&gt; Invidious, Twitter -&gt; Nitter, Reddit -&gt; Libreddit.</li>
+</ul>
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/watch-on-odysee/">Watch on Odysee</a>
+<ul>
+<li>Videos available on Odysee platform will be redirected.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>All together with <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> and custom profile from <a href="https://ffprofile.com/">ffprofilemaker</a>.</p>
+<p>On Android I use the <a href="https://f-droid.org/en/packages/us.spotco.fennec_dos/">Mull browser</a> along with the supported extensions listed above.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Using a Blog Instead of Social Media</title>
       <link>https://plug-world.com/posts/using-a-blog-instead-of-social-media/</link>
@@ -212,54 +267,16 @@ After installing the drivers those issues were resolved.</p>
       <pubDate>Sat, 25 Jun 2022 11:59:47 -0600</pubDate>
       
       <guid>https://plug-world.com/posts/brave-goggles-changes-how-i-search/</guid>
-      <description>Full video on YouTube
-So if you didn&amp;rsquo;t know Brave, the company behind the Brave Browser, created a search engine not too long ago. Brave Search is actually a really interesting project. Brave advertises itself as a private search engine. Now I&amp;rsquo;m not here to talk about privacy. Just talking about the features of the project. But it&amp;rsquo;s up to you to trust them. Their source code is public, but their servers aren&amp;rsquo;t.</description>
-      <content:encoded><![CDATA[<p><a href="https://youtu.be/HZvrgZK43qg">
+      <description>Original YouTube Link So if you didn&amp;rsquo;t know Brave, the company behind the Brave Browser, created a search engine not too long ago. Brave Search is actually a really interesting project. Brave advertises itself as a private search engine. Now I&amp;rsquo;m not here to talk about privacy. Just talking about the features of the project. But it&amp;rsquo;s up to you to trust them. Their source code is public, but their servers aren&amp;rsquo;t.</description>
+      <content:encoded><![CDATA[<div class='embed-container' style="width=700px; height: 400px;">
+	<iframe src='https://yewtu.be/embed/HZvrgZK43qg' frameborder='0' allowfullscreen width='700px' height='400px'>
+	</iframe>
+</div>
 
+<hr>
 
+<a href="https://www.youtube.com/watch?v=HZvrgZK43qg">Original YouTube Link</a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img
-  
-  sizes="(min-width: 35em) 720px, 100vw"
-  srcset='
-  
-    /images/posts/brave-goggles-changes-how-i-search/Thumbnail_hua4ed1c4fb5db1b84bff28db420c034ef_1018309_500x0_resize_q85_h2_box_3.webp 500w
-  
-  
-    , /images/posts/brave-goggles-changes-how-i-search/Thumbnail_hua4ed1c4fb5db1b84bff28db420c034ef_1018309_800x0_resize_q85_h2_box_3.webp 800w
-  
-  
-    , /images/posts/brave-goggles-changes-how-i-search/Thumbnail_hua4ed1c4fb5db1b84bff28db420c034ef_1018309_1200x0_resize_q85_h2_box_3.webp 1200w
-  '
-  
-    src="/images/posts/brave-goggles-changes-how-i-search/Thumbnail.png"
-  
-  alt="">
-
-
-</a>
-<a href="https://youtu.be/HZvrgZK43qg">Full video on YouTube</a></p>
 <p>So if you didn&rsquo;t know Brave, the company behind the <a href="https://brave.com/">Brave Browser</a>, created a <a href="https://search.brave.com/">search engine</a> not too long ago.
 Brave Search is actually a really interesting project.
 Brave advertises itself as a private search engine.
@@ -307,13 +324,18 @@ Now I just use the <a href="https://search.brave.com/goggles/discover?goggles_id
       <pubDate>Mon, 20 Jun 2022 09:19:12 -0600</pubDate>
       
       <guid>https://plug-world.com/posts/arch-linux-just-works/</guid>
-      <description>Full video on YouTube
-Intro Arch is often not recommended to new Linux users. This is caused by the fact that you have to run a lot of commands to install and configure your system. The terminal is scary. The terminal is made for hackers. That pushes new users away from it.
+      <description>Original YouTube Link Intro Arch is often not recommended to new Linux users. This is caused by the fact that you have to run a lot of commands to install and configure your system. The terminal is scary. The terminal is made for hackers. That pushes new users away from it.
 Despite all of that, I would recommend Arch Linux to beginners.
 Arch has just recently made a guided installer.</description>
-      <content:encoded><![CDATA[<p><a href="https://www.youtube.com/watch?v=ZGcrjX-xlfk"><img loading="lazy" src="/images/posts/arch-linux-just-works/arch-linux.webp" alt="Arch Linux"  />
-</a>
-<a href="https://www.youtube.com/watch?v=ZGcrjX-xlfk">Full video on YouTube</a></p>
+      <content:encoded><![CDATA[<div class='embed-container' style="width=700px; height: 400px;">
+	<iframe src='https://yewtu.be/embed/ZGcrjX-xlfk' frameborder='0' allowfullscreen width='700px' height='400px'>
+	</iframe>
+</div>
+
+<hr>
+
+<a href="https://www.youtube.com/watch?v=ZGcrjX-xlfk">Original YouTube Link</a>
+
 <h2 id="intro">Intro</h2>
 <p>Arch is often not recommended to new Linux users.
 This is caused by the fact that you have to run a lot of commands to install and configure your system.
@@ -440,13 +462,18 @@ Which is even easier for beginners.</p>
       <pubDate>Wed, 15 Jun 2022 14:24:37 -0600</pubDate>
       
       <guid>https://plug-world.com/posts/generating-slideshows-easily-with-shotcut/</guid>
-      <description>Full video on YouTube
-Context Shotcut is an open source video editor.
+      <description>Original YouTube Link Context Shotcut is an open source video editor.
 From their forum I found out you can create slide shows with it. In the past I tried to create an ffmpeg script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.
 Tutorial Import all of your pictures into the playlist panel on the left hand side.</description>
-      <content:encoded><![CDATA[<p><a href="https://www.youtube.com/watch?v=jf2OVow17X8"><img loading="lazy" src="/images/posts/shotcut-slideshow-generator/thumbnail.webp" alt="Shotcut Interface"  />
-</a>
-<a href="https://www.youtube.com/watch?v=jf2OVow17X8">Full video on YouTube</a></p>
+      <content:encoded><![CDATA[<div class='embed-container' style="width=700px; height: 400px;">
+	<iframe src='https://yewtu.be/embed/jf2OVow17X8' frameborder='0' allowfullscreen width='700px' height='400px'>
+	</iframe>
+</div>
+
+<hr>
+
+<a href="https://www.youtube.com/watch?v=jf2OVow17X8">Original YouTube Link</a>
+
 <h2 id="context">Context</h2>
 <p><a href="https://shotcut.org/">Shotcut</a> is an open source video editor.</p>
 <p>From their <a href="https://forum.shotcut.org/t/slideshow-generator/19162">forum</a> I found out you can create slide shows with it. In the past I tried to create an <a href="https://ffmpeg.org/">ffmpeg</a> script to do this for me, but I was unsuccessful. This does exactly what I was hoping to achieve with those scripts.</p>

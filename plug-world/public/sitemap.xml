@@ -2,20 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://plug-world.com/</loc>
+    <lastmod>2022-08-01T11:04:08-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/posts/</loc>
+    <lastmod>2022-08-01T11:04:08-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/tags/privacy/</loc>
+    <lastmod>2022-08-01T11:04:08-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/posts/recommended-browser-extensions/</loc>
+    <lastmod>2022-08-01T11:04:08-06:00</lastmod>
+  </url><url>
+    <loc>https://plug-world.com/tags/</loc>
+    <lastmod>2022-08-01T11:04:08-06:00</lastmod>
+  </url><url>
     <loc>https://plug-world.com/microblog/back-from-glacier-and-canada/</loc>
     <lastmod>2022-07-27T16:05:59-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/microblog/</loc>
     <lastmod>2022-07-27T16:05:59-06:00</lastmod>
   </url><url>
-    <loc>https://plug-world.com/</loc>
-    <lastmod>2022-07-27T16:05:59-06:00</lastmod>
-  </url><url>
     <loc>https://plug-world.com/microblog/youth-conference/</loc>
     <lastmod>2022-07-16T22:36:28-06:00</lastmod>
-  </url><url>
-    <loc>https://plug-world.com/posts/</loc>
-    <lastmod>2022-07-12T17:09:03-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/posts/using-a-blog-instead-of-social-media/</loc>
     <lastmod>2022-07-12T17:09:03-06:00</lastmod>
@@ -27,9 +36,6 @@
     <lastmod>2022-07-05T21:45:46-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/tags/linux/</loc>
-    <lastmod>2022-07-05T21:45:46-06:00</lastmod>
-  </url><url>
-    <loc>https://plug-world.com/tags/</loc>
     <lastmod>2022-07-05T21:45:46-06:00</lastmod>
   </url><url>
     <loc>https://plug-world.com/tags/tutorial/</loc>
