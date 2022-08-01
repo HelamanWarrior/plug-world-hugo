@@ -20,7 +20,7 @@ params:
 
   profileMode:
     enabled: true
-    Title: "PlugWorld 📺"
+    title: "PlugWorld 📺"
     subtitle: "17, doin things on computers."
     imageUrl: "/images/profile/profile-pic.webp"
 
@@ -37,6 +37,7 @@ params:
     favicon: "/images/profile/favicon.ico"
     favicon16x16: "/images/profile/favicon-16x16.png"
     favicon32x32: "/images/profile/favicon-32x32.png"
+    disableHLJS: true
 
 menu:
   main:
