@@ -101,12 +101,10 @@ After installing the drivers those issues were resolved.</p>
       <description>Original YouTube Link Intro Arch is often not recommended to new Linux users. This is caused by the fact that you have to run a lot of commands to install and configure your system. The terminal is scary. The terminal is made for hackers. That pushes new users away from it.
 Despite all of that, I would recommend Arch Linux to beginners.
 Arch has just recently made a guided installer.</description>
-      <content:encoded><![CDATA[<div class='embed-container' style="width=700px; height: 400px;">
-	<iframe src='https://yewtu.be/embed/ZGcrjX-xlfk' frameborder='0' allowfullscreen width='700px' height='400px'>
+      <content:encoded><![CDATA[<div class='embed-container'>
+	<iframe src='https://yewtu.be/embed/ZGcrjX-xlfk' frameborder='0' allowfullscreen width='768px' height='432px'>
 	</iframe>
 </div>
-
-<hr>
 
 <a href="https://www.youtube.com/watch?v=ZGcrjX-xlfk">Original YouTube Link</a>
 
